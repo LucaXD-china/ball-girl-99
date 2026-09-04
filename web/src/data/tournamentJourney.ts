@@ -4,6 +4,7 @@ import { configurableSkills, isSkillCompatible, skillQualityRank } from "./skill
 import { STORY_OPPONENT_IDS } from "./opponentStories";
 import { tournamentCaptainRoutes, type OpponentRarityBonus, type TournamentCaptainId } from "./tournamentCaptain";
 import { applyTournamentProgress, emptyTrainingFocus } from "./tournamentSquad";
+import { assetUrl } from "../services/assetUrl";
 
 export const TOURNAMENT_DAYS = 99;
 export const TOURNAMENT_ROSTER_SIZE = 18;
@@ -96,9 +97,9 @@ export function opponentRarityTargetForPool(stage: TournamentStage, fiveStarPool
   };
 }
 
-const crest = (id: string) => `/assets/opponents/club-crests-v1/${id}.svg`;
+const crest = (id: string) => assetUrl(`/assets/opponents/club-crests-v1/${id}.svg`);
 
-export const playerClub = { name: "待命名俱乐部", shortName: "我方", nickname: "新生球队", crestUrl: "/assets/clubs/player-club-crest-v1.svg" };
+export const playerClub = { name: "待命名俱乐部", shortName: "我方", nickname: "新生球队", crestUrl: assetUrl("/assets/clubs/player-club-crest-v1.svg") };
 
 export const clubBlueprints: ClubBlueprint[] = [
   { id: "lumiere_crown", name: "流光竞技", shortName: "流光", nickname: "王冠", heritageFactionId: "gaul_iris", crestUrl: crest("lumiere_crown"), attackFormationId: "4-3-3", defenseFormationId: "4-4-2", keyRoles: ["爆发边锋", "肋部创造者"], skillBias: ["速度", "终结"], strengths: ["边路单点爆破", "禁区前换位"], weaknesses: ["边后卫身后", "高位回防距离"], baseStrength: 95 },

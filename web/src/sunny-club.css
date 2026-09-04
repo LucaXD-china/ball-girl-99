@@ -544,7 +544,7 @@ body { -webkit-font-smoothing: antialiased; }
     linear-gradient(140deg, #6ec1eb 0%, #caeafa 48%, #fff4e3 100%);
 }
 .pack-market-screen {
-  background: #cce9f7 url("/assets/packs/recruitment-card-shop-counter-v2.webp") center / cover no-repeat;
+  background: #cce9f7 var(--pack-counter-bg) center / cover no-repeat;
 }
 .locker-screen::before,
 .schedule-screen::before {

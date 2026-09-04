@@ -1832,7 +1832,7 @@ h1, h2, h3 { text-wrap: balance; }
   padding: 14px 18px max(16px,env(safe-area-inset-bottom));
   gap: 8px;
   color: #25324a;
-  background: #cce9f7 url("/assets/packs/recruitment-card-shop-counter-v2.webp") center / cover no-repeat;
+  background: #cce9f7 var(--pack-counter-bg) center / cover no-repeat;
 }
 .pack-market-screen::before { content: ""; position: absolute; z-index: -1; inset: 0; pointer-events: none; background: linear-gradient(180deg,rgba(245,252,255,.42),transparent 24%,rgba(19,42,63,.12)); }
 .pack-market-heading { min-height: 54px; padding: 0; background: transparent; }
@@ -1883,7 +1883,7 @@ h1, h2, h3 { text-wrap: balance; }
 .pack-dossier-footnote { margin: 0; color: #778697; font-size: 11px; line-height: 1.55; }
 @keyframes counter-pack-arrive { from { opacity:0; transform:translateY(18px) rotate(-2deg) scale(.94); } to { opacity:1; transform:none; } }
 
-.pack-reveal-overlay { position: fixed; z-index: 80; inset: 0; display: grid; place-items: center; overflow: hidden; color: #fff; background: linear-gradient(155deg,rgba(7,16,18,.76),rgba(2,7,9,.9) 58%,rgba(10,16,20,.86)),url("/assets/packs/recruitment-card-shop-counter-v2.webp") center / cover no-repeat; }
+.pack-reveal-overlay { position: fixed; z-index: 80; inset: 0; display: grid; place-items: center; overflow: hidden; color: #fff; background: linear-gradient(155deg,rgba(7,16,18,.76),rgba(2,7,9,.9) 58%,rgba(10,16,20,.86)),var(--pack-counter-bg) center / cover no-repeat; }
 .pack-reveal-overlay::before { content: ""; position: absolute; inset: 0; opacity: .7; background: linear-gradient(108deg,transparent 18%,rgba(78,119,139,.08) 49%,transparent 76%); }
 .tier-blue { --reveal-core:#f2fdff; --reveal-glow:rgba(102,211,255,.82); --reveal-edge:#58bce7; }
 .tier-gold,
@@ -1984,7 +1984,7 @@ h1, h2, h3 { text-wrap: balance; }
 .reveal-card-copy .reveal-card-actions > .pack-skip-reveal { min-width: 0; margin-left: auto; padding: clamp(8px,.5vw,12px) clamp(11px,.8vw,18px); color: rgba(217,232,224,.68); border: 0; border-bottom: 1px solid rgba(220,238,228,.28); border-radius: 0; background: transparent; box-shadow: none; font-size: clamp(11px,.7vw,16px); font-weight: 800; }
 .pack-skip-reveal:hover,.pack-skip-reveal:focus-visible { color: #fff; border-bottom-color: rgba(255,255,255,.72); outline: 0; }
 .pack-reveal-overlay.phase-summary { place-items: stretch; background: #17293a; }
-.pack-reveal-overlay.phase-summary::before { z-index: 0; opacity: 1; background: linear-gradient(180deg,rgba(6,15,23,.32),rgba(6,16,24,.08) 42%,rgba(4,12,19,.22)),url("/assets/packs/recruitment-card-shop-counter-v2.webp") center / cover no-repeat; transform-origin: 50% 78%; animation: result-camera-turn .82s cubic-bezier(.18,.78,.22,1) both; }
+.pack-reveal-overlay.phase-summary::before { z-index: 0; opacity: 1; background: linear-gradient(180deg,rgba(6,15,23,.32),rgba(6,16,24,.08) 42%,rgba(4,12,19,.22)),var(--pack-counter-bg) center / cover no-repeat; transform-origin: 50% 78%; animation: result-camera-turn .82s cubic-bezier(.18,.78,.22,1) both; }
 .pack-reveal-overlay.phase-summary::after { content: ""; position: absolute; z-index: 1; inset: 0; pointer-events: none; background: radial-gradient(ellipse at 50% 76%,transparent 28%,rgba(3,10,15,.16) 72%,rgba(2,7,11,.48)); }
 .pack-result-summary { position: relative; z-index: 4; width: 100%; height: 100%; padding: clamp(24px,3.5vh,44px) clamp(32px,5vw,92px); display: grid; grid-template-rows: minmax(0,1fr) auto; gap: clamp(12px,2vh,24px); overflow: hidden; color: #f4fbff; animation: result-scene-enter .48s .28s ease-out both; }
 .pack-result-grid { min-height: 0; align-self: center; display: grid; grid-template-columns: repeat(10,minmax(78px,1fr)); gap: clamp(6px,.7vw,13px); align-items: center; overflow: visible; padding: clamp(12px,2vh,24px) clamp(0px,2.5vw,44px) 0; perspective: 1100px; }

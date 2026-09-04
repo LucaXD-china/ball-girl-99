@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { assetUrl } from "../services/assetUrl";
 
 // V3 使用由透明 PNG 母版生成的 WebP；原程序化 SVG 仅在资源加载失败时兜底。
 
@@ -96,7 +97,7 @@ export function chibiSpriteAction(action: ChibiAction, goalkeeper = false): Chib
 export function chibiSpriteUrl(side: "home" | "away", playerId: string, action: ChibiAction, goalkeeper = false, awayKitFamily: ChibiSpriteFamily = AWAY_KIT_DEFAULT): string {
   const family = chibiSpriteFamily(side, playerId, goalkeeper, awayKitFamily);
   const spriteAction = chibiSpriteAction(action, goalkeeper);
-  return `/assets/characters/match-chibi-v3/${family}-${spriteAction}.webp`;
+  return assetUrl(`/assets/characters/match-chibi-v3/${family}-${spriteAction}.webp`);
 }
 
 // 场景 → 表情映射：默认/传球/射门用「坚定冷静」，铲断/扑救用「闭眼努力」。

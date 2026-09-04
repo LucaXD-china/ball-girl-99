@@ -9,6 +9,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { useEffect, useRef, useState, type CSSProperties, type PointerEvent } from "react";
+import { assetUrl } from "../services/assetUrl";
 import { PlayerCardArtwork, PlayerCardInspector } from "../components/PlayerCardInspector";
 import { SayaGuide } from "../components/SayaGuide";
 import { factionMeta, roster, type FactionId } from "../data/gameData";
@@ -133,7 +134,7 @@ function PackCover({ factionId, compact = false }: { factionId: FactionId; compa
       style={{ "--faction-color": faction.color } as CSSProperties}
       aria-hidden="true"
     >
-      <img className="pack-cover-image" src={`/assets/packs/factions-v2/${factionId}.png`} alt="" />
+      <img className="pack-cover-image" src={assetUrl(`/assets/packs/factions-v2/${factionId}.png`)} alt="" />
       <div className="pack-cover-copy">
         <small>PLAYER CARD · FACTION</small>
         <strong>{faction.name}</strong>
@@ -144,7 +145,7 @@ function PackCover({ factionId, compact = false }: { factionId: FactionId; compa
 }
 
 function FactionCrest({ factionId }: { factionId: FactionId }) {
-  return <svg className="pack-faction-crest" viewBox="0 0 64 72" aria-hidden="true"><use href={`/assets/packs/faction-crests-v1.svg#crest-${factionId}`} /></svg>;
+  return <svg className="pack-faction-crest" viewBox="0 0 64 72" aria-hidden="true"><use href={assetUrl(`/assets/packs/faction-crests-v1.svg#crest-${factionId}`)} /></svg>;
 }
 
 export function PackResultFooter({ onBackToShop }: { onBackToShop: () => void }) {

@@ -6,10 +6,11 @@ import {
 } from "../components/ChibiFigure";
 import type { Lineup } from "../data/matchSimulator";
 import { characterArtworkAssetId, resolveCharacterArtwork } from "./assetResolver";
+import { assetUrl } from "./assetUrl";
 
 export const MATCH_ASSET_TIMEOUT_MS = 8_000;
-export const MATCH_STADIUM_URL = "/assets/match-stadium-v1/stadium-dusk-base.webp";
-export const MATCH_BALL_URL = "/assets/characters/match-chibi-v3/ball-v2.webp";
+export const MATCH_STADIUM_URL = assetUrl("/assets/match-stadium-v1/stadium-dusk-base.webp");
+export const MATCH_BALL_URL = assetUrl("/assets/characters/match-chibi-v3/ball-v2.webp");
 
 export type MatchAssetLoadState = {
   status: "idle" | "loading" | "ready" | "degraded";

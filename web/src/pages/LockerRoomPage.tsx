@@ -25,6 +25,7 @@ import {
   traitMeta,
 } from "../data/lockerRoomData";
 import { characterArtworkAssetId, resolveCharacterArtwork, resolveDisplayCharacterCard } from "../services/assetResolver";
+import { assetUrl } from "../services/assetUrl";
 import {
   defaultSpecialSkillFor,
   skillQualityMeta,
@@ -73,11 +74,11 @@ const SAYA_CHARACTER_ID = "founder_sakura_link_4";
 const NAYA_CHARACTER_ID = "founder_samba_union_7";
 const IRENA_CHARACTER_ID = "founder_scarlet_toros_6";
 const SAYA_LOCKER_MOTION_DURATION_MS = 7200;
-const SAYA_LOCKER_MOTION_URL = "/assets/characters/locker-motion-v1/saya-interaction-v3.gif";
+const SAYA_LOCKER_MOTION_URL = assetUrl("/assets/characters/locker-motion-v1/saya-interaction-v3.gif");
 const NAYA_LOCKER_MOTION_DURATION_MS = 5000;
-const NAYA_LOCKER_MOTION_URL = "/assets/characters/locker-motion-v1/naya-beach-interaction-v2.webp";
+const NAYA_LOCKER_MOTION_URL = assetUrl("/assets/characters/locker-motion-v1/naya-beach-interaction-v2.webp");
 const IRENA_LOCKER_MOTION_DURATION_MS = 6340;
-const IRENA_LOCKER_MOTION_URL = "/assets/characters/locker-motion-v1/irena-chibi-os-v2.webp";
+const IRENA_LOCKER_MOTION_URL = assetUrl("/assets/characters/locker-motion-v1/irena-chibi-os-v2.webp");
 
 export function formatAttributeValue(value: number) {
   return Math.round(value).toString();

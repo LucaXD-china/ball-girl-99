@@ -57,7 +57,7 @@
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: #07172b url("/assets/match-stadium-v1/stadium-dusk-base.webp") center / 100% 100% no-repeat;
+  background: #07172b var(--stadium-bg) center / 100% 100% no-repeat;
 }
 .stands-pitch-stands::before {
   content: "";
@@ -267,7 +267,7 @@
 .stands-pitch-ball > i {
   position: absolute;
   inset: 0;
-  background: url("/assets/characters/match-chibi-v3/ball-v2.webp") center / contain no-repeat;
+  background: var(--ball-bg) center / contain no-repeat;
   filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.48));
   transform: rotate(0deg);
   will-change: transform;
