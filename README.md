@@ -3,7 +3,7 @@
 《激射！绿茵少女！》是一款以女子足球、球员收集、阵容构筑和足球经理体验为核心的 Web
 游戏。本仓库发布的是赛事特别篇《冠军联赛99日》（英文名 `Ball Girl: 99 Days to Glory`）。
 
-线上试玩：**https://LucaXD-china.github.io/ball-girl-99/**（GitHub Pages 静态托管，全程
+线上试玩：https://LucaXD-china.github.io/ball-girl-99/（GitHub Pages 静态托管，全程
 在浏览器本地运行，无后端服务器）。
 
 ## 当前可玩内容
