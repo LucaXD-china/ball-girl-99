@@ -1,0 +1,357 @@
+{
+  "contract_version": "text-match-seed-contract-v1",
+  "match_mode_contract_version": "text-match-modes-v1",
+  "match_rules_version": "text-match-prototype-v4",
+  "character_data_version": "expanded-roster-v1",
+  "cases": [
+    {
+      "case_id": "three_player_training_seed_42",
+      "match_mode_id": "three_player_training",
+      "seed": 42,
+      "score": {
+        "曙光联队": 0,
+        "群星联队": 0
+      },
+      "teams": {
+        "曙光联队": {
+          "starters": [
+            "rhein_johanna_falk",
+            "sol_lucia_montoro",
+            "rose_elodie_beaumont"
+          ]
+        },
+        "群星联队": {
+          "starters": [
+            "azure_alessia_romano",
+            "silver_sofia_acosta",
+            "gold_vitoria_luz"
+          ]
+        }
+      },
+      "shots": [
+        {
+          "minute": 9,
+          "team": "群星联队",
+          "creator_id": "gold_vitoria_luz",
+          "shooter_id": "silver_sofia_acosta",
+          "marker_id": "rhein_johanna_falk",
+          "goalkeeper_id": null,
+          "chance_type": "open_play",
+          "xg": 0.17,
+          "outcome": "off_target",
+          "skill_ids": [
+            "wide_breakthrough",
+            "aerial_guard"
+          ]
+        },
+        {
+          "minute": 27,
+          "team": "曙光联队",
+          "creator_id": "rose_elodie_beaumont",
+          "shooter_id": "sol_lucia_montoro",
+          "marker_id": "azure_alessia_romano",
+          "goalkeeper_id": null,
+          "chance_type": "wide",
+          "xg": 0.038,
+          "outcome": "off_target",
+          "skill_ids": []
+        }
+      ]
+    },
+    {
+      "case_id": "five_a_side_seed_42",
+      "match_mode_id": "five_a_side",
+      "seed": 42,
+      "score": {
+        "曙光联队": 0,
+        "群星联队": 0
+      },
+      "teams": {
+        "曙光联队": {
+          "starters": [
+            "sol_ines_valera",
+            "rhein_johanna_falk",
+            "sol_lucia_montoro",
+            "rhein_klara_neumann",
+            "rose_elodie_beaumont"
+          ]
+        },
+        "群星联队": {
+          "starters": [
+            "azure_giulia_bellini",
+            "azure_alessia_romano",
+            "silver_sofia_acosta",
+            "sakura_akari_fujimoto",
+            "gold_vitoria_luz"
+          ]
+        }
+      },
+      "shots": [
+        {
+          "minute": 9,
+          "team": "群星联队",
+          "creator_id": "gold_vitoria_luz",
+          "shooter_id": "sakura_akari_fujimoto",
+          "marker_id": "rhein_klara_neumann",
+          "goalkeeper_id": "sol_ines_valera",
+          "chance_type": "open_play",
+          "xg": 0.227,
+          "outcome": "off_target",
+          "skill_ids": [
+            "wide_breakthrough",
+            "late_arrival"
+          ]
+        },
+        {
+          "minute": 12,
+          "team": "曙光联队",
+          "creator_id": "rhein_klara_neumann",
+          "shooter_id": "sol_lucia_montoro",
+          "marker_id": "azure_alessia_romano",
+          "goalkeeper_id": "azure_giulia_bellini",
+          "chance_type": "open_play",
+          "xg": 0.118,
+          "outcome": "off_target",
+          "skill_ids": [
+            "tempo_control",
+            "reflex_save"
+          ]
+        },
+        {
+          "minute": 23,
+          "team": "曙光联队",
+          "creator_id": "rose_elodie_beaumont",
+          "shooter_id": "sol_lucia_montoro",
+          "marker_id": "azure_alessia_romano",
+          "goalkeeper_id": "azure_giulia_bellini",
+          "chance_type": "wide",
+          "xg": 0.037,
+          "outcome": "off_target",
+          "skill_ids": []
+        },
+        {
+          "minute": 30,
+          "team": "曙光联队",
+          "creator_id": "rose_elodie_beaumont",
+          "shooter_id": "rose_elodie_beaumont",
+          "marker_id": "azure_alessia_romano",
+          "goalkeeper_id": "azure_giulia_bellini",
+          "chance_type": "transition",
+          "xg": 0.416,
+          "outcome": "off_target",
+          "skill_ids": [
+            "box_finisher",
+            "reflex_save"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "eleven_a_side_seed_42",
+      "match_mode_id": "eleven_a_side",
+      "seed": 42,
+      "score": {
+        "曙光联队": 0,
+        "群星联队": 0
+      },
+      "teams": {
+        "曙光联队": {
+          "starters": [
+            "sol_ines_valera",
+            "rhein_johanna_falk",
+            "sol_martina_esteve",
+            "fog_beatrice_ashford",
+            "rhein_maren_vogt",
+            "fog_imogen_clarke",
+            "rose_solene_marchand",
+            "sol_vega_soler",
+            "rose_elodie_beaumont",
+            "rhein_annika_weiss",
+            "sol_carmen_vidal"
+          ]
+        },
+        "群星联队": {
+          "starters": [
+            "silver_valentina_rojas",
+            "azure_alessia_romano",
+            "silver_renata_quiroga",
+            "gold_luana_carvalho",
+            "silver_martina_ferreyra",
+            "silver_milagros_luna",
+            "azure_chiara_conti",
+            "sakura_reina_tachibana",
+            "sakura_aoi_shiraishi",
+            "silver_luciana_vega",
+            "azure_sofia_moretti"
+          ]
+        }
+      },
+      "shots": [
+        {
+          "minute": 9,
+          "team": "群星联队",
+          "creator_id": "silver_luciana_vega",
+          "shooter_id": "sakura_reina_tachibana",
+          "marker_id": "rose_solene_marchand",
+          "goalkeeper_id": "sol_ines_valera",
+          "chance_type": "open_play",
+          "xg": 0.175,
+          "outcome": "off_target",
+          "skill_ids": []
+        },
+        {
+          "minute": 12,
+          "team": "曙光联队",
+          "creator_id": "sol_vega_soler",
+          "shooter_id": "rhein_maren_vogt",
+          "marker_id": "silver_renata_quiroga",
+          "goalkeeper_id": "silver_valentina_rojas",
+          "chance_type": "open_play",
+          "xg": 0.111,
+          "outcome": "off_target",
+          "skill_ids": [
+            "reflex_save"
+          ]
+        },
+        {
+          "minute": 23,
+          "team": "曙光联队",
+          "creator_id": "rose_elodie_beaumont",
+          "shooter_id": "fog_imogen_clarke",
+          "marker_id": "azure_alessia_romano",
+          "goalkeeper_id": "silver_valentina_rojas",
+          "chance_type": "wide",
+          "xg": 0.046,
+          "outcome": "off_target",
+          "skill_ids": []
+        },
+        {
+          "minute": 30,
+          "team": "曙光联队",
+          "creator_id": "rhein_annika_weiss",
+          "shooter_id": "rhein_annika_weiss",
+          "marker_id": "silver_renata_quiroga",
+          "goalkeeper_id": "silver_valentina_rojas",
+          "chance_type": "transition",
+          "xg": 0.424,
+          "outcome": "saved",
+          "skill_ids": [
+            "box_finisher",
+            "reflex_save"
+          ]
+        },
+        {
+          "minute": 43,
+          "team": "群星联队",
+          "creator_id": "silver_milagros_luna",
+          "shooter_id": "silver_milagros_luna",
+          "marker_id": "rhein_maren_vogt",
+          "goalkeeper_id": "sol_ines_valera",
+          "chance_type": "open_play",
+          "xg": 0.202,
+          "outcome": "saved",
+          "skill_ids": [
+            "late_arrival"
+          ]
+        },
+        {
+          "minute": 45,
+          "team": "群星联队",
+          "creator_id": "silver_luciana_vega",
+          "shooter_id": "azure_sofia_moretti",
+          "marker_id": "rose_solene_marchand",
+          "goalkeeper_id": "sol_ines_valera",
+          "chance_type": "transition",
+          "xg": 0.168,
+          "outcome": "saved",
+          "skill_ids": [
+            "box_finisher",
+            "reflex_save"
+          ]
+        },
+        {
+          "minute": 54,
+          "team": "群星联队",
+          "creator_id": "gold_luana_carvalho",
+          "shooter_id": "sakura_reina_tachibana",
+          "marker_id": "rhein_maren_vogt",
+          "goalkeeper_id": "sol_ines_valera",
+          "chance_type": "free_kick",
+          "xg": 0.093,
+          "outcome": "off_target",
+          "skill_ids": []
+        },
+        {
+          "minute": 61,
+          "team": "群星联队",
+          "creator_id": "silver_martina_ferreyra",
+          "shooter_id": "sakura_reina_tachibana",
+          "marker_id": "rose_solene_marchand",
+          "goalkeeper_id": "sol_ines_valera",
+          "chance_type": "corner",
+          "xg": 0.04,
+          "outcome": "off_target",
+          "skill_ids": []
+        },
+        {
+          "minute": 67,
+          "team": "曙光联队",
+          "creator_id": "sol_carmen_vidal",
+          "shooter_id": "rose_solene_marchand",
+          "marker_id": "silver_martina_ferreyra",
+          "goalkeeper_id": "silver_valentina_rojas",
+          "chance_type": "corner",
+          "xg": 0.052,
+          "outcome": "off_target",
+          "skill_ids": [
+            "front_foot_stop"
+          ]
+        },
+        {
+          "minute": 72,
+          "team": "群星联队",
+          "creator_id": "silver_martina_ferreyra",
+          "shooter_id": "azure_sofia_moretti",
+          "marker_id": "rhein_maren_vogt",
+          "goalkeeper_id": "sol_ines_valera",
+          "chance_type": "wide",
+          "xg": 0.305,
+          "outcome": "saved",
+          "skill_ids": [
+            "box_finisher"
+          ]
+        },
+        {
+          "minute": 73,
+          "team": "群星联队",
+          "creator_id": "silver_martina_ferreyra",
+          "shooter_id": "silver_luciana_vega",
+          "marker_id": "rose_solene_marchand",
+          "goalkeeper_id": "sol_ines_valera",
+          "chance_type": "open_play",
+          "xg": 0.282,
+          "outcome": "saved",
+          "skill_ids": [
+            "box_finisher"
+          ]
+        },
+        {
+          "minute": 84,
+          "team": "曙光联队",
+          "creator_id": "fog_imogen_clarke",
+          "shooter_id": "sol_vega_soler",
+          "marker_id": "gold_luana_carvalho",
+          "goalkeeper_id": "silver_valentina_rojas",
+          "chance_type": "open_play",
+          "xg": 0.181,
+          "outcome": "saved",
+          "skill_ids": [
+            "tempo_control",
+            "late_arrival",
+            "recovery_cover"
+          ]
+        }
+      ]
+    }
+  ]
+}

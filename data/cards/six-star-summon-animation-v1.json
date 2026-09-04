@@ -1,0 +1,53 @@
+{
+  "version": "six-star-summon-animation-v1",
+  "extends": "recruit-reveal-language-v1",
+  "description": "六星角色召唤体的统一点星与旗舰爆发时序。",
+  "canvas": {
+    "width": 1024,
+    "height": 1536,
+    "background": "transparent"
+  },
+  "layer_order": [
+    "rear-sigil",
+    "rarity-star-1",
+    "rarity-star-2",
+    "rarity-star-3",
+    "rarity-star-4",
+    "rarity-star-5",
+    "rarity-star-6",
+    "character-glow",
+    "character",
+    "foreground-energy",
+    "orbital-ui",
+    "signature-mark"
+  ],
+  "timeline_ms": [
+    {"at": 0, "event": "summon_enter", "target": "rear-sigil", "duration": 320},
+    {"at": 180, "event": "character_reveal", "target": "character", "duration": 420},
+    {"at": 520, "event": "star_light", "target": "rarity-star-1", "duration": 170},
+    {"at": 690, "event": "star_light", "target": "rarity-star-2", "duration": 170},
+    {"at": 860, "event": "star_light", "target": "rarity-star-3", "duration": 170},
+    {"at": 1030, "event": "star_light", "target": "rarity-star-4", "duration": 170},
+    {"at": 1200, "event": "star_light", "target": "rarity-star-5", "duration": 170},
+    {"at": 1370, "event": "anticipation_hold", "target": "all", "duration": 260},
+    {"at": 1630, "event": "star_light_flagship", "target": "rarity-star-6", "duration": 320},
+    {"at": 1630, "event": "flagship_burst", "target": "rear-sigil,character-glow,foreground-energy", "duration": 520},
+    {"at": 1810, "event": "identity_reveal", "target": "orbital-ui", "duration": 360},
+    {"at": 2150, "event": "signature_write", "target": "signature-mark", "duration": 620},
+    {"at": 2770, "event": "signature_seal", "target": "signature-mark", "duration": 180},
+    {"at": 2950, "event": "summon_idle", "target": "all", "duration": 0}
+  ],
+  "rules": {
+    "stars_must_light_in_order": true,
+    "stars_visible_before_activation": false,
+    "sixth_star_is_larger": true,
+    "sixth_star_triggers_flagship_burst": true,
+    "flagship_burst_uses_white_core_dual_shockwaves_and_radial_rays": true,
+    "draws_additional_star_row_over_completed_summon": false,
+    "signature_is_character_specific": true,
+    "signature_draws_after_identity": true,
+    "skip_behavior": "立即显示完整召唤体，但仍保留一次 180ms 的第六星闪光",
+    "reduced_motion_behavior": "取消位移、旋转和高频闪烁，保留六次 120ms 渐显与第六星柔光"
+  },
+  "asset_template": "assets/cards/six-star-summons-v1/{character_id}/layers/{layer}.png"
+}

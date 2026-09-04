@@ -1,0 +1,41 @@
+{
+  "name": "ball-girl-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare:cards": "node scripts/materialize-card-previews.mjs",
+    "prepare:data": "node scripts/prepare-data.mjs",
+    "predev": "npm run prepare:data",
+    "dev": "vite",
+    "prebuild": "npm run prepare:data",
+    "build": "tsc -b && node scripts/verify-runtime-boundary.mjs && vite build && node scripts/verify-build.mjs",
+    "pretest": "npm run prepare:data",
+    "test": "vitest run",
+    "presimulate:cup": "npm run prepare:data",
+    "simulate:cup": "vite-node --script scripts/simulate-tournament.ts",
+    "precalibrate:cup": "npm run prepare:data",
+    "calibrate:cup": "vite-node --script scripts/calibrate-tournament-captains.ts",
+    "presimulate:ablation": "npm run prepare:data",
+    "simulate:ablation": "vite-node --script scripts/ablate-attribution.ts",
+    "preaudit:opponents": "npm run prepare:data",
+    "audit:opponents": "vite-node --script scripts/audit-opponent-promotions.ts",
+    "pretypecheck": "npm run prepare:data",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "lucide-react": "1.28.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "@vitejs/plugin-react": "4.4.1",
+    "sharp": "0.35.3",
+    "typescript": "6.0.2",
+    "vite": "6.4.3",
+    "vitest": "3.2.7"
+  }
+}

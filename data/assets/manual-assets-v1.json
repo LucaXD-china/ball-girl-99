@@ -1,0 +1,3163 @@
+{
+  "schema_version": 1,
+  "catalog_version": "manual-assets-v1",
+  "description": "Non-card runtime assets such as scenes, BGM, sound effects and voice are registered here before materializing the unified asset manifest.",
+  "assets": [
+    {
+      "asset_id": "scene.login.key_visual",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "eager",
+      "source_version": "login-key-visual-champions-league-99-v2",
+      "variants": {
+        "desktop": {
+          "local_path": "web/runtime-assets/scenes/login-key-visual-champions-league-99-v2/desktop.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.tournament-ending.v2",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "preload",
+      "source_version": "tournament-ending-v2",
+      "variants": {
+        "end01-naya-01-departure": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end01-naya-01-departure.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end01-naya-02-rewatch": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end01-naya-02-rewatch.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end01-naya-03-support": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end01-naya-03-support.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end01-naya-04-academy": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end01-naya-04-academy.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end01-irena-01-departure": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end01-irena-01-departure.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end01-irena-02-rewatch": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end01-irena-02-rewatch.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end01-irena-03-support": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end01-irena-03-support.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end01-irena-04-academy": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end01-irena-04-academy.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-naya-01-club": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end02-naya-01-club.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-naya-02-seasons": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end02-naya-02-seasons.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-naya-03-injury": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end02-naya-03-injury.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-naya-04-offer": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end02-naya-04-offer.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-naya-05-coach": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end02-naya-05-coach.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-irena-01-club": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end02-irena-01-club.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-irena-02-seasons": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end02-irena-02-seasons.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-irena-03-injury": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end02-irena-03-injury.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-irena-04-offer": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end02-irena-04-offer.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-irena-05-coach": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end02-irena-05-coach.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end04-01-twin-stars": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end04-01-twin-stars.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end04-02-hometown": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end04-02-hometown.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end04-03-tax": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end04-03-tax.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end04-04-mini-cooper": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end04-04-mini-cooper.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end04-05-years-later": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end04-05-years-later.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end05-01-red-miracle": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end05-01-red-miracle.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end05-02-only-crown": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end05-02-only-crown.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end05-03-departure": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end05-03-departure.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end05-04-legend": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end05-04-legend.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end05-05-documentary": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v2/end05-05-documentary.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.manager_office.tournament_day1",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "eager",
+      "source_version": "tournament-office-day1-v1",
+      "variants": {
+        "desktop": {
+          "local_path": "web/runtime-assets/scenes/tournament-office-day1-v1/desktop.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "narrow": {
+          "local_path": "web/runtime-assets/scenes/tournament-office-day1-v1/narrow.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.manager_office.round_of_16",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "eager",
+      "source_version": "manager-office-round-of-16-v1",
+      "variants": {
+        "desktop": {
+          "local_path": "web/runtime-assets/scenes/manager-office-round-of-16-v1/desktop.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.manager_office.quarter_final",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "eager",
+      "source_version": "manager-office-quarter-final-v1",
+      "variants": {
+        "desktop": {
+          "local_path": "web/runtime-assets/scenes/manager-office-quarter-final-v1/desktop.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.manager_office.semi_final",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "eager",
+      "source_version": "manager-office-semi-final-v2",
+      "variants": {
+        "desktop": {
+          "local_path": "web/runtime-assets/scenes/manager-office-semi-final-v2/desktop.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.manager_office.final",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "eager",
+      "source_version": "manager-office-final-v2",
+      "variants": {
+        "desktop": {
+          "local_path": "web/runtime-assets/scenes/manager-office-final-v2/desktop.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.match_day.tactics_room",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "eager",
+      "source_version": "match-day-tactics-room-v1",
+      "variants": {
+        "desktop": {
+          "local_path": "web/runtime-assets/scenes/match-day-tactics-room-v1/desktop.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.match_day.player_tunnel",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "eager",
+      "source_version": "match-day-player-tunnel-v1",
+      "variants": {
+        "desktop": {
+          "local_path": "web/runtime-assets/scenes/match-day-player-tunnel-v1/desktop.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.match_day.post_match_locker",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "eager",
+      "source_version": "match-day-post-match-locker-v1",
+      "variants": {
+        "desktop": {
+          "local_path": "web/runtime-assets/scenes/match-day-post-match-locker-v1/desktop.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.match_day.honors_corridor",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "eager",
+      "source_version": "match-day-honors-corridor-v1",
+      "variants": {
+        "desktop": {
+          "local_path": "web/runtime-assets/scenes/match-day-honors-corridor-v1/desktop.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "character.founder.sakura_link_4",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "eager",
+      "source_version": "founder-promo-v4-standee-v1",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/founder-promo-v4-standee-v1/sakura-link-number-4-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.guide.saya_chibi",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "saya-guide-mascot-v1",
+      "variants": {
+        "welcome": {
+          "local_path": "web/runtime-assets/guides/saya-guide-mascot-v1/welcome.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "guide": {
+          "local_path": "web/runtime-assets/guides/saya-guide-mascot-v1/guide.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "think": {
+          "local_path": "web/runtime-assets/guides/saya-guide-mascot-v1/think.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "remind": {
+          "local_path": "web/runtime-assets/guides/saya-guide-mascot-v1/remind.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "celebrate": {
+          "local_path": "web/runtime-assets/guides/saya-guide-mascot-v1/celebrate.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.guide.naya_chibi",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "naya-guide-mascot-v1",
+      "variants": {
+        "welcome": {
+          "local_path": "web/runtime-assets/guides/naya-guide-mascot-v1/welcome.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "guide": {
+          "local_path": "web/runtime-assets/guides/naya-guide-mascot-v1/guide.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "think": {
+          "local_path": "web/runtime-assets/guides/naya-guide-mascot-v1/think.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "remind": {
+          "local_path": "web/runtime-assets/guides/naya-guide-mascot-v1/remind.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "celebrate": {
+          "local_path": "web/runtime-assets/guides/naya-guide-mascot-v1/celebrate.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.guide.irena_chibi",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "irena-guide-mascot-v1",
+      "variants": {
+        "welcome": {
+          "local_path": "web/runtime-assets/guides/irena-guide-mascot-v1/welcome.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "guide": {
+          "local_path": "web/runtime-assets/guides/irena-guide-mascot-v1/guide.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "think": {
+          "local_path": "web/runtime-assets/guides/irena-guide-mascot-v1/think.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "remind": {
+          "local_path": "web/runtime-assets/guides/irena-guide-mascot-v1/remind.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "celebrate": {
+          "local_path": "web/runtime-assets/guides/irena-guide-mascot-v1/celebrate.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.match-chibi.saya",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "match-chibi-v2",
+      "variants": {
+        "idle": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/saya-idle.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "pass": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/saya-pass.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "shoot": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/saya-shoot.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "tackle": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/saya-tackle.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.match-chibi.field-home",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "match-chibi-v2",
+      "variants": {
+        "idle": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/field-home-idle.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "pass": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/field-home-pass.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "shoot": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/field-home-shoot.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "tackle": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/field-home-tackle.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.match-chibi.field-away",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "match-chibi-v2",
+      "variants": {
+        "idle": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/field-away-idle.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "pass": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/field-away-pass.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "shoot": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/field-away-shoot.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "tackle": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/field-away-tackle.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.match-chibi.keeper",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "match-chibi-v2",
+      "variants": {
+        "idle": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/keeper-idle.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "save": {
+          "local_path": "web/runtime-assets/characters/match-chibi-v2/keeper-save.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.founder.scarlet_toros_6",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "eager",
+      "source_version": "founder-promo-v4-standee-v1",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/founder-promo-v4-standee-v1/scarlet-toros-number-6-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.founder.samba_union_7",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "eager",
+      "source_version": "founder-promo-v4-standee-v1",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/founder-promo-v4-standee-v1/samba-union-number-7-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.rose_elodie_beaumont",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "on_demand",
+      "source_version": "rarity-demo-standee-v1",
+      "variants": {
+        "standee": {
+          "local_path": "assets/characters/card-v1/gaul_iris/rose_elodie_beaumont.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.fog_harriet_wren",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "fog_harriet_wren",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/fog_harriet_wren-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.rose_elodie_beaumont",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "rose_elodie_beaumont",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/rose_elodie_beaumont-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.rhein_klara_neumann",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "rhein_klara_neumann",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/rhein_klara_neumann-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.sol_lucia_montoro",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "sol_lucia_montoro",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/sol_lucia_montoro-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.gold_vitoria_luz",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "gold_vitoria_luz",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/gold_vitoria_luz-standee-v2.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.silver_sofia_acosta",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "silver_sofia_acosta",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/silver_sofia_acosta-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.sakura_akari_fujimoto",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "sakura_akari_fujimoto",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/sakura_akari_fujimoto-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.azure_giulia_bellini",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "azure_giulia_bellini",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/azure_giulia_bellini-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "recruitment.six-star.azure_giulia_bellini",
+      "media_type": "image",
+      "category": "recruitment_animation",
+      "load_policy": "on_demand",
+      "source_version": "six-star-summon-animation-v1",
+      "owner_id": "azure_giulia_bellini",
+      "variants": {
+        "animation": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/azure_giulia_bellini.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "idle": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/azure_giulia_bellini-idle.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "recruitment.six-star.fog_harriet_wren",
+      "media_type": "image",
+      "category": "recruitment_animation",
+      "load_policy": "on_demand",
+      "source_version": "six-star-summon-animation-v1",
+      "owner_id": "fog_harriet_wren",
+      "variants": {
+        "animation": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/fog_harriet_wren.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "idle": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/fog_harriet_wren-idle.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "recruitment.six-star.gold_vitoria_luz",
+      "media_type": "image",
+      "category": "recruitment_animation",
+      "load_policy": "on_demand",
+      "source_version": "six-star-summon-animation-v1",
+      "owner_id": "gold_vitoria_luz",
+      "variants": {
+        "animation": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/gold_vitoria_luz.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "idle": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/gold_vitoria_luz-idle.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "recruitment.six-star.rhein_klara_neumann",
+      "media_type": "image",
+      "category": "recruitment_animation",
+      "load_policy": "on_demand",
+      "source_version": "six-star-summon-animation-v1",
+      "owner_id": "rhein_klara_neumann",
+      "variants": {
+        "animation": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/rhein_klara_neumann.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "idle": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/rhein_klara_neumann-idle.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "recruitment.six-star.rose_elodie_beaumont",
+      "media_type": "image",
+      "category": "recruitment_animation",
+      "load_policy": "on_demand",
+      "source_version": "six-star-summon-animation-v1",
+      "owner_id": "rose_elodie_beaumont",
+      "variants": {
+        "animation": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/rose_elodie_beaumont.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "idle": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/rose_elodie_beaumont-idle.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "recruitment.six-star.sakura_akari_fujimoto",
+      "media_type": "image",
+      "category": "recruitment_animation",
+      "load_policy": "on_demand",
+      "source_version": "six-star-summon-animation-v1",
+      "owner_id": "sakura_akari_fujimoto",
+      "variants": {
+        "animation": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/sakura_akari_fujimoto.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "idle": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/sakura_akari_fujimoto-idle.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "recruitment.six-star.silver_sofia_acosta",
+      "media_type": "image",
+      "category": "recruitment_animation",
+      "load_policy": "on_demand",
+      "source_version": "six-star-summon-animation-v1",
+      "owner_id": "silver_sofia_acosta",
+      "variants": {
+        "animation": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/silver_sofia_acosta.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "idle": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/silver_sofia_acosta-idle.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "recruitment.six-star.sol_lucia_montoro",
+      "media_type": "image",
+      "category": "recruitment_animation",
+      "load_policy": "on_demand",
+      "source_version": "six-star-summon-animation-v1",
+      "owner_id": "sol_lucia_montoro",
+      "variants": {
+        "animation": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/sol_lucia_montoro.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "idle": {
+          "local_path": "web/runtime-assets/recruitment/six-star-summon-animation-v1/sol_lucia_montoro-idle.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.prologue.v1",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "preload",
+      "source_version": "prologue-v1",
+      "variants": {
+        "p1-01-twilight-manager-office": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p1-01-twilight-manager-office.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p1-02-community-park": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p1-02-community-park.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p1-03-child-saka-calls": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p1-03-child-saka-calls.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p1-04-ball-arc": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p1-04-ball-arc.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p1-05-goal-celebration": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p1-05-goal-celebration.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p1-06-empty-park-afterglow": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p1-06-empty-park-afterglow.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p2-01-fifth-division-ground": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p2-01-fifth-division-ground.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p2-02-defensive-midfield": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p2-02-defensive-midfield.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p2-03-forward-attack": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p2-03-forward-attack.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p2-04-fullback-chase": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p2-04-fullback-chase.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p2-05-goalmouth-aerial": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p2-05-goalmouth-aerial.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p2-06-running-everywhere": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p2-06-running-everywhere.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p2-07-coach-run-command": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p2-07-coach-run-command.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p2-08-knee-injury": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p2-08-knee-injury.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p2-09-rain-injury-pov": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p2-09-rain-injury-pov.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p3-01-hospital-after-rain": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p3-01-hospital-after-rain.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p3-02-bedside-phone": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p3-02-bedside-phone.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p3-03-bob-phone-call": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p3-03-bob-phone-call.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p3-04-analysis-room-bob": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p3-04-analysis-room-bob.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p3-05a-analysis-room-midyears": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p3-05a-analysis-room-midyears.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p3-05b-analysis-room-ten-years": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p3-05b-analysis-room-ten-years.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p3-06-bob-handover": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p3-06-bob-handover.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p3-07-empty-office-after-bob": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p3-07-empty-office-after-bob.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p3-08-club-name-office": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p3-08-club-name-office.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "p3-09-main-office-transition": {
+          "local_path": "web/runtime-assets/scenes/prologue-v1/p3-09-main-office-transition.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.day1.story.v1",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "preload",
+      "source_version": "day1-story-v1",
+      "variants": {
+        "d1-01-champions-league-stakes": {
+          "local_path": "web/runtime-assets/scenes/day1-story-v1/d1-01-champions-league-stakes.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "d1-02-disastrous-seasons": {
+          "local_path": "web/runtime-assets/scenes/day1-story-v1/d1-02-disastrous-seasons.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "d1-03-conrad-conflict": {
+          "local_path": "web/runtime-assets/scenes/day1-story-v1/d1-03-conrad-conflict.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "d1-04-tactical-mismatch": {
+          "local_path": "web/runtime-assets/scenes/day1-story-v1/d1-04-tactical-mismatch.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "d1-05-naya-irena-departure": {
+          "local_path": "web/runtime-assets/scenes/day1-story-v1/d1-05-naya-irena-departure.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "d1-06-supporters-meeting": {
+          "local_path": "web/runtime-assets/scenes/day1-story-v1/d1-06-supporters-meeting.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "d1-07-members-assembly": {
+          "local_path": "web/runtime-assets/scenes/day1-story-v1/d1-07-members-assembly.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "d1-08-winter-reinforcements": {
+          "local_path": "web/runtime-assets/scenes/day1-story-v1/d1-08-winter-reinforcements.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "d1-09-champions-league-return": {
+          "local_path": "web/runtime-assets/scenes/day1-story-v1/d1-09-champions-league-return.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.founder-stories.v1",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "preload",
+      "source_version": "founder-stories-v1",
+      "variants": {
+        "saya-01-campus-collective": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/saya-01-campus-collective.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "saya-02-last-line": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/saya-02-last-line.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "saya-03-quiet-bench": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/saya-03-quiet-bench.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "saya-04-manager-challenge": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/saya-04-manager-challenge.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "saya-05-stands-to-speak": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/saya-05-stands-to-speak.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "saya-06-true-captain": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/saya-06-true-captain.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "naya-01-street-origin": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/naya-01-street-origin.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "naya-02-be-seen": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/naya-02-be-seen.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "naya-03-courage-cost": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/naya-03-courage-cost.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "naya-04-quiet-street": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/naya-04-quiet-street.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "naya-05-welcome-home": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/naya-05-welcome-home.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "irena-01-read-the-game": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/irena-01-read-the-game.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "irena-02-protected-genius": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/irena-02-protected-genius.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "irena-03-forced-sale": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/irena-03-forced-sale.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "irena-04-lost-sun": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/irena-04-lost-sun.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "irena-04-sunrise-core": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/irena-04-sunrise-core.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "irena-05-final-reunion": {
+          "local_path": "web/runtime-assets/scenes/founder-stories-v1/irena-05-final-reunion.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.opponent-stories.v1",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "preload",
+      "source_version": "opponent-stories-v2",
+      "variants": {
+        "lumiere-crown": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/lumiere-crown.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "lumiere-system-break": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/lumiere-system-break.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "lumiere-rebuild": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/lumiere-rebuild.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "ivory-capital": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/ivory-capital.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "ivory-city-courage": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/ivory-city-courage.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "ivory-army": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/ivory-army.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "indigo-serpents": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/indigo-serpents.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "indigo-veterans": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/indigo-veterans.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "indigo-monologue": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/indigo-monologue.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "azure-gulf": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/azure-gulf.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "azure-arrival": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/azure-arrival.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        },
+        "azure-equality": {
+          "local_path": "web/runtime-assets/scenes/opponent-stories-v2/azure-equality.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "scene.tournament-ending.v1",
+      "media_type": "image",
+      "category": "scene_background",
+      "load_policy": "preload",
+      "source_version": "tournament-ending-v1",
+      "variants": {
+        "end01-01-departure": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end01-01-departure.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end01-02-rewatch": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end01-02-rewatch.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end01-03-support": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end01-03-support.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end01-04-academy": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end01-04-academy.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-01-northern-port-club": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end02-01-northern-port-club.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-02-three-seasons": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end02-02-three-seasons.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-03-training-injury": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end02-03-training-injury.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-04-hospital-offer": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end02-04-hospital-offer.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end02-05-saya-coach": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end02-05-saya-coach.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end03-01-first-crown": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end03-01-first-crown.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end03-02-dynasty-road": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end03-02-dynasty-road.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end03-03-five-title-celebration": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end03-03-five-title-celebration.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end03-04-bob-seaside": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end03-04-bob-seaside.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        },
+        "end03-05-bob-tv-cheer": {
+          "local_path": "web/runtime-assets/scenes/tournament-ending-v1/end03-05-bob-tv-cheer.webp",
+          "public_path": null,
+          "mime_type": "image/webp"
+        }
+      }
+    },
+    {
+      "asset_id": "bgm.login.default",
+      "media_type": "audio",
+      "category": "bgm",
+      "load_policy": "eager",
+      "source_version": "login-theme-v1",
+      "loop_start_ms": 0,
+      "loop_end_ms": 138372,
+      "default_gain_db": -6,
+      "variants": {
+        "source": {
+          "local_path": "assets/music/MUS_Theme.wav",
+          "public_path": null,
+          "mime_type": "audio/wav"
+        },
+        "web": {
+          "local_path": "web/runtime-assets/audio/login-theme-v1/theme.m4a",
+          "public_path": null,
+          "mime_type": "audio/mp4",
+          "duration_ms": 138372,
+          "sample_rate_hz": 44100,
+          "channels": 2,
+          "bit_rate_kbps": 160
+        }
+      }
+    },
+    {
+      "asset_id": "bgm.hub.default",
+      "media_type": "audio",
+      "category": "bgm",
+      "load_policy": "on_demand",
+      "source_version": "hub-quest-v1",
+      "loop_start_ms": 0,
+      "loop_end_ms": 128661,
+      "default_gain_db": -6,
+      "variants": {
+        "source": {
+          "local_path": "assets/music/MUS_Quest.wav",
+          "public_path": null,
+          "mime_type": "audio/wav"
+        },
+        "web": {
+          "local_path": "web/runtime-assets/audio/hub-quest-v1/quest.m4a",
+          "public_path": null,
+          "mime_type": "audio/mp4",
+          "duration_ms": 128661,
+          "sample_rate_hz": 44100,
+          "channels": 2,
+          "bit_rate_kbps": 160
+        }
+      }
+    },
+    {
+      "asset_id": "bgm.match.default",
+      "media_type": "audio",
+      "category": "bgm",
+      "load_policy": "on_demand",
+      "source_version": "match-battle-v1",
+      "loop_start_ms": 0,
+      "loop_end_ms": 24876,
+      "default_gain_db": -6,
+      "variants": {
+        "source": {
+          "local_path": "assets/music/MUS_Battle.wav",
+          "public_path": null,
+          "mime_type": "audio/wav"
+        },
+        "web": {
+          "local_path": "web/runtime-assets/audio/match-battle-v1/battle.m4a",
+          "public_path": null,
+          "mime_type": "audio/mp4",
+          "duration_ms": 24876,
+          "sample_rate_hz": 44100,
+          "channels": 2,
+          "bit_rate_kbps": 160
+        }
+      }
+    },
+    {
+      "asset_id": "sfx.battle.whistle",
+      "media_type": "audio",
+      "category": "sfx",
+      "load_policy": "preload",
+      "source_version": "sfx-v1",
+      "default_gain_db": 0,
+      "variants": {
+        "source": {
+          "local_path": "assets/music/SFX_Battle_Whistle.wav",
+          "public_path": null,
+          "mime_type": "audio/wav"
+        },
+        "web": {
+          "local_path": "web/runtime-assets/audio/sfx-v1/battle-whistle.m4a",
+          "public_path": null,
+          "mime_type": "audio/mp4",
+          "duration_ms": 2297,
+          "sample_rate_hz": 44100,
+          "channels": 2,
+          "bit_rate_kbps": 128
+        }
+      }
+    },
+    {
+      "asset_id": "sfx.lottery.result",
+      "media_type": "audio",
+      "category": "sfx",
+      "load_policy": "preload",
+      "source_version": "sfx-v1",
+      "default_gain_db": 0,
+      "variants": {
+        "source": {
+          "local_path": "assets/music/SFX_Sys_Lottery_Result.wav",
+          "public_path": null,
+          "mime_type": "audio/wav"
+        },
+        "web": {
+          "local_path": "web/runtime-assets/audio/sfx-v1/lottery-result.m4a",
+          "public_path": null,
+          "mime_type": "audio/mp4",
+          "duration_ms": 924,
+          "sample_rate_hz": 44100,
+          "channels": 2,
+          "bit_rate_kbps": 128
+        }
+      }
+    },
+    {
+      "asset_id": "sfx.lottery.slide",
+      "media_type": "audio",
+      "category": "sfx",
+      "load_policy": "preload",
+      "source_version": "sfx-v1",
+      "default_gain_db": 0,
+      "variants": {
+        "source": {
+          "local_path": "assets/music/SFX_Sys_Lottery_Slide.wav",
+          "public_path": null,
+          "mime_type": "audio/wav"
+        },
+        "web": {
+          "local_path": "web/runtime-assets/audio/sfx-v1/lottery-slide.m4a",
+          "public_path": null,
+          "mime_type": "audio/mp4",
+          "duration_ms": 1440,
+          "sample_rate_hz": 44100,
+          "channels": 2,
+          "bit_rate_kbps": 128
+        }
+      }
+    },
+    {
+      "asset_id": "sfx.ui.click-common",
+      "media_type": "audio",
+      "category": "sfx",
+      "load_policy": "preload",
+      "source_version": "sfx-v1",
+      "default_gain_db": 0,
+      "variants": {
+        "source": {
+          "local_path": "assets/music/SFX_UI_Click_Common.wav",
+          "public_path": null,
+          "mime_type": "audio/wav"
+        },
+        "web": {
+          "local_path": "web/runtime-assets/audio/sfx-v1/click-common.m4a",
+          "public_path": null,
+          "mime_type": "audio/mp4",
+          "duration_ms": 26,
+          "sample_rate_hz": 44100,
+          "channels": 1,
+          "bit_rate_kbps": 128
+        }
+      }
+    },
+    {
+      "asset_id": "sfx.ui.click-confirm",
+      "media_type": "audio",
+      "category": "sfx",
+      "load_policy": "preload",
+      "source_version": "sfx-v1",
+      "default_gain_db": 0,
+      "variants": {
+        "source": {
+          "local_path": "assets/music/SFX_UI_Click_Confirm.wav",
+          "public_path": null,
+          "mime_type": "audio/wav"
+        },
+        "web": {
+          "local_path": "web/runtime-assets/audio/sfx-v1/click-confirm.m4a",
+          "public_path": null,
+          "mime_type": "audio/mp4",
+          "duration_ms": 63,
+          "sample_rate_hz": 44100,
+          "channels": 1,
+          "bit_rate_kbps": 128
+        }
+      }
+    },
+    {
+      "asset_id": "sfx.ui.team-select",
+      "media_type": "audio",
+      "category": "sfx",
+      "load_policy": "preload",
+      "source_version": "sfx-v1",
+      "default_gain_db": 0,
+      "variants": {
+        "source": {
+          "local_path": "assets/music/SFX_UI_Team_Select.wav",
+          "public_path": null,
+          "mime_type": "audio/wav"
+        },
+        "web": {
+          "local_path": "web/runtime-assets/audio/sfx-v1/team-select.m4a",
+          "public_path": null,
+          "mime_type": "audio/mp4",
+          "duration_ms": 130,
+          "sample_rate_hz": 44100,
+          "channels": 1,
+          "bit_rate_kbps": 128
+        }
+      }
+    },
+    {
+      "asset_id": "character.fog_eleanor_hart",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-standee-v1",
+      "owner_id": "fog_eleanor_hart",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/five-star-standee-v1/fog_eleanor_hart.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.azure_alessia_romano",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "azure_alessia_romano",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/azure_alessia_romano-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.azure_chiara_conti",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "azure_chiara_conti",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/azure_chiara_conti-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.fog_beatrice_ashford",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "fog_beatrice_ashford",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/fog_beatrice_ashford-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.fog_eleanor_hart",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "fog_eleanor_hart",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/fog_eleanor_hart-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rose_juliette_moreau",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "rose_juliette_moreau",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rose_juliette_moreau-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rose_maelle_garnier",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "rose_maelle_garnier",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rose_maelle_garnier-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rhein_greta_adler",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "rhein_greta_adler",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rhein_greta_adler-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rhein_johanna_falk",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "rhein_johanna_falk",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rhein_johanna_falk-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.silver_luciana_vega",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "silver_luciana_vega",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/silver_luciana_vega-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.silver_valentina_rojas",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "silver_valentina_rojas",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/silver_valentina_rojas-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sakura_noa_kisaragi",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "sakura_noa_kisaragi",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sakura_noa_kisaragi-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sakura_reina_tachibana",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "sakura_reina_tachibana",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sakura_reina_tachibana-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.gold_beatriz_nascimento",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "gold_beatriz_nascimento",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/gold_beatriz_nascimento-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.gold_mariana_alves",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "gold_mariana_alves",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/gold_mariana_alves-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sol_alba_serrano",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "sol_alba_serrano",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sol_alba_serrano-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sol_ines_valera",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "sol_ines_valera",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sol_ines_valera-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.azure_bianca_russo",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "azure_bianca_russo",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/azure_bianca_russo-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.azure_caterina_de_luca",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "azure_caterina_de_luca",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/azure_caterina_de_luca-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.azure_elena_marchetti",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "azure_elena_marchetti",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/azure_elena_marchetti-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.azure_giorgia_greco",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "azure_giorgia_greco",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/azure_giorgia_greco-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.azure_marta_ferraro",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "azure_marta_ferraro",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/azure_marta_ferraro-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.azure_novella_ricci",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "azure_novella_ricci",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/azure_novella_ricci-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.azure_sofia_moretti",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "azure_sofia_moretti",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/azure_sofia_moretti-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.azure_viola_rinaldi",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "azure_viola_rinaldi",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/azure_viola_rinaldi-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.fog_amelia_sterling",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "fog_amelia_sterling",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/fog_amelia_sterling-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.fog_freya_sutton",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "fog_freya_sutton",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/fog_freya_sutton-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.fog_imogen_clarke",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "fog_imogen_clarke",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/fog_imogen_clarke-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.fog_isla_mercer",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "fog_isla_mercer",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/fog_isla_mercer-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.fog_maeve_holloway",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "fog_maeve_holloway",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/fog_maeve_holloway-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.fog_nora_beckett",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "fog_nora_beckett",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/fog_nora_beckett-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.fog_poppy_hargreaves",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "fog_poppy_hargreaves",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/fog_poppy_hargreaves-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.fog_tessa_reed",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "fog_tessa_reed",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/fog_tessa_reed-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.gaul_adele_marais",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "gaul_adele_marais",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/gaul_adele_marais-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.gaul_lea_faure",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "gaul_lea_faure",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/gaul_lea_faure-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.gaul_odette_perrin",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "gaul_odette_perrin",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/gaul_odette_perrin-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.gold_camila_ribeiro",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "gold_camila_ribeiro",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/gold_camila_ribeiro-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.gold_isadora_freitas",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "gold_isadora_freitas",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/gold_isadora_freitas-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.gold_luana_carvalho",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "gold_luana_carvalho",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/gold_luana_carvalho-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.gold_taina_barros",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "gold_taina_barros",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/gold_taina_barros-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.gold_yasmin_duarte",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "gold_yasmin_duarte",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/gold_yasmin_duarte-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.iron_hedda_kruger",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "iron_hedda_kruger",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/iron_hedda_kruger-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.iron_ida_lindt",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "iron_ida_lindt",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/iron_ida_lindt-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.iron_mila_bauer",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "iron_mila_bauer",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/iron_mila_bauer-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.pampas_candela_benitez",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "pampas_candela_benitez",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/pampas_candela_benitez-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.pampas_delfina_cruz",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "pampas_delfina_cruz",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/pampas_delfina_cruz-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.pampas_malena_vera",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "pampas_malena_vera",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/pampas_malena_vera-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rhein_annika_weiss",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "rhein_annika_weiss",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rhein_annika_weiss-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rhein_frieda_wolff",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "rhein_frieda_wolff",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rhein_frieda_wolff-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rhein_lena_hartmann",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "rhein_lena_hartmann",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rhein_lena_hartmann-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rhein_maren_vogt",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "rhein_maren_vogt",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rhein_maren_vogt-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rhein_nadine_keller",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "rhein_nadine_keller",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rhein_nadine_keller-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rose_anais_laurent",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "rose_anais_laurent",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rose_anais_laurent-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rose_camille_delacroix",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "rose_camille_delacroix",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rose_camille_delacroix-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rose_celeste_diallo",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "rose_celeste_diallo",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rose_celeste_diallo-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rose_noemie_caron",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "rose_noemie_caron",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rose_noemie_caron-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.rose_solene_marchand",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "rose_solene_marchand",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/rose_solene_marchand-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sakura_aoi_shiraishi",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sakura_aoi_shiraishi",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sakura_aoi_shiraishi-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sakura_chiharu_kondo",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sakura_chiharu_kondo",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sakura_chiharu_kondo-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sakura_hikari_amamiya",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sakura_hikari_amamiya",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sakura_hikari_amamiya-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sakura_kaede_mizuno",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sakura_kaede_mizuno",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sakura_kaede_mizuno-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sakura_mio_kanzaki",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sakura_mio_kanzaki",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sakura_mio_kanzaki-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sakura_natsuki_mori",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sakura_natsuki_mori",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sakura_natsuki_mori-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sakura_rinka_sakurai",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sakura_rinka_sakurai",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sakura_rinka_sakurai-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sakura_yuna_takamori",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sakura_yuna_takamori",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sakura_yuna_takamori-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.samba_debora_costa",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "samba_debora_costa",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/samba_debora_costa-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.samba_kira_moura",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "samba_kira_moura",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/samba_kira_moura-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.samba_meli_santos",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "samba_meli_santos",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/samba_meli_santos-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.scarlet_aitana_loza",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "scarlet_aitana_loza",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/scarlet_aitana_loza-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.scarlet_belen_paz",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "scarlet_belen_paz",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/scarlet_belen_paz-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.scarlet_jimena_duran",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "scarlet_jimena_duran",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/scarlet_jimena_duran-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.silver_abril_sosa",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "silver_abril_sosa",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/silver_abril_sosa-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.silver_celeste_navarro",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "silver_celeste_navarro",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/silver_celeste_navarro-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.silver_martina_ferreyra",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "silver_martina_ferreyra",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/silver_martina_ferreyra-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.silver_milagros_luna",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "silver_milagros_luna",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/silver_milagros_luna-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.silver_renata_quiroga",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "silver_renata_quiroga",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/silver_renata_quiroga-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sol_alba_ferrer",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sol_alba_ferrer",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sol_alba_ferrer-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sol_carmen_vidal",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sol_carmen_vidal",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sol_carmen_vidal-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sol_martina_esteve",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sol_martina_esteve",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sol_martina_esteve-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sol_nerea_ibarra",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sol_nerea_ibarra",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sol_nerea_ibarra-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.sol_vega_soler",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "locker-room-v1",
+      "owner_id": "sol_vega_soler",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/sol_vega_soler-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.opp_lumiere_crown_rw",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "opp_lumiere_crown_rw",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/opp_lumiere_crown_rw-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_lumiere_crown_cm",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_lumiere_crown_cm",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_lumiere_crown_cm-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_north_foundry_lw",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_north_foundry_lw",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_north_foundry_lw-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_north_foundry_cm",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_north_foundry_cm",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_north_foundry_cm-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_alpine_engine_cam",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_alpine_engine_cam",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_alpine_engine_cam-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_alpine_engine_rm",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_alpine_engine_rm",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_alpine_engine_rm-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.opp_ivory_capital_st",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "opp_ivory_capital_st",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/opp_ivory_capital_st-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_ivory_capital_cm",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_ivory_capital_cm",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_ivory_capital_cm-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_blue_moon_lab_gk",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_blue_moon_lab_gk",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_blue_moon_lab_gk-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_blue_moon_lab_cb",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_blue_moon_lab_cb",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_blue_moon_lab_cb-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_crimson_mosaic_lw",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_crimson_mosaic_lw",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_crimson_mosaic_lw-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_crimson_mosaic_cm",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_crimson_mosaic_cm",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_crimson_mosaic_cm-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_red_tide_union_rw",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_red_tide_union_rw",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_red_tide_union_rw-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_red_tide_union_st",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_red_tide_union_st",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_red_tide_union_st-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.opp_indigo_serpents_cb",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "opp_indigo_serpents_cb",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/opp_indigo_serpents_cb-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_indigo_serpents_gk",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_indigo_serpents_gk",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_indigo_serpents_gk-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_iron_bastion_st",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_iron_bastion_st",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_iron_bastion_st-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_iron_bastion_cb",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_iron_bastion_cb",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_iron_bastion_cb-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_ruhr_swarm_cam",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_ruhr_swarm_cam",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_ruhr_swarm_cam-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_ruhr_swarm_st",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_ruhr_swarm_st",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_ruhr_swarm_st-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_eternal_legion_gk",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_eternal_legion_gk",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_eternal_legion_gk-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_eternal_legion_cb",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_eternal_legion_cb",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_eternal_legion_cb-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_emerald_lions_gk",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_emerald_lions_gk",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_emerald_lions_gk-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_emerald_lions_cb",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_emerald_lions_cb",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_emerald_lions_cb-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_violet_comets_cam",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_violet_comets_cam",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_violet_comets_cam-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_violet_comets_cdm",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_violet_comets_cdm",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_violet_comets_cdm-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.six-star.opp_azure_gulf_lw",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "six-star-standee-v1",
+      "owner_id": "opp_azure_gulf_lw",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/six-star-standee-v1/opp_azure_gulf_lw-standee.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_azure_gulf_cm",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_azure_gulf_cm",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_azure_gulf_cm-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_saxon_gale_cam",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_saxon_gale_cam",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_saxon_gale_cam-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    },
+    {
+      "asset_id": "character.locker.opp_saxon_gale_st",
+      "media_type": "image",
+      "category": "character_standee",
+      "load_policy": "lazy",
+      "source_version": "five-star-locker-v1",
+      "owner_id": "opp_saxon_gale_st",
+      "variants": {
+        "standee": {
+          "local_path": "web/runtime-assets/characters/locker-room-v1/opp_saxon_gale_st-locker.png",
+          "public_path": null,
+          "mime_type": "image/png"
+        }
+      }
+    }
+  ],
+  "asset_count": 163
+}

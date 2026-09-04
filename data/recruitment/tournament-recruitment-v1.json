@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "system_version": "tournament-recruitment-v1",
+  "status": "current_tournament_runtime",
+  "budget": {
+    "total_pulls": 60,
+    "allowed_draw_counts": [1, 10]
+  },
+  "pack": {
+    "size": 10,
+    "scope": "selected_faction"
+  },
+  "pool": {
+    "source": "expanded-roster-v1.public.json",
+    "required_character_stars": [3, 4, 5, 6],
+    "excluded_character_id_prefixes": ["founder_"],
+    "founder_rule": "御三家是独立剧情角色，不进入冠军联赛补强池。",
+    "empty_tier_behavior": "abort_without_saving"
+  },
+  "rarity": {
+    "base_rates": {"3": 0.4, "4": 0.5, "5": 0.08, "6": 0.02},
+    "route_star_caps": {"saya": 6, "naya": 5, "irena": 4},
+    "blocked_rate_redistribution": "split_equally_across_every_allowed_rarity",
+    "effective_base_rates_by_route": {
+      "saya": {"3": 0.4, "4": 0.5, "5": 0.08, "6": 0.02},
+      "naya": {"3": 0.4066666667, "4": 0.5066666667, "5": 0.0866666667, "6": 0},
+      "irena": {"3": 0.45, "4": 0.55, "5": 0, "6": 0}
+    },
+    "first_ten_guarantee": "at_least_one_5_or_6_star",
+    "six_star_soft_pity": {
+      "shared_across_factions": true,
+      "base_rate": 0.02,
+      "increase_starts_after_misses": 50,
+      "increase_per_pull": 0.02,
+      "reset_on_six_star": true,
+      "take_probability_from": ["3", "4"],
+      "five_star_rate_stays_fixed": true
+    },
+    "six_star_hard_pity": {
+      "guaranteed_within_pulls": 50
+    }
+  },
+  "transaction": {
+    "result_is_determined_and_saved_on_draw": true,
+    "animation_never_rerolls": true,
+    "closing_or_skipping_never_changes_result": true
+  },
+  "reveal": {
+    "shared_contract": "data/cards/recruit-reveal-language-v1.json",
+    "five_star_contract": "data/cards/five-star-reveal-animation-v1.json",
+    "six_star_contract": "data/cards/six-star-summon-animation-v1.json",
+    "highest_star_controls_pack_opening_signal": true,
+    "cards_are_revealed_one_by_one": true,
+    "summary_shows_all_results": true,
+    "persistent_circles_or_ellipses_behind_character": false,
+    "duplicate_star_marks": false
+  },
+  "collection": {
+    "one_playable_entity_per_character": true,
+    "duplicate_cards_increase_copy_count": true,
+    "duplicate_cards_can_raise_breakthrough_rank": true,
+    "founders_have_no_duplicate_output": true
+  }
+}

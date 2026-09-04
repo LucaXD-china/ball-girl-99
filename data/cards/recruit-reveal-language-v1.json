@@ -1,0 +1,35 @@
+{
+  "version": "recruit-reveal-language-v1",
+  "description": "三星至六星共享的球员招募视觉语法。等级差异只能追加，不得替换共同开场。",
+  "shared_sequence": [
+    {"at": 0, "event": "horizontal_signal_flash", "duration": 260},
+    {"at": 180, "event": "edge_bracket_lock", "duration": 340},
+    {"at": 360, "event": "vertical_scan", "duration": 460},
+    {"at": 760, "event": "rarity_confirm", "duration": 360},
+    {"at": 1120, "event": "identity_node_reveal", "duration": 300}
+  ],
+  "shared_elements": {
+    "signal_pulse": "由中心向两侧展开的横向信号闪",
+    "edge_brackets": "四角阵营色锁定括号；不使用会抢人物的常驻圆环",
+    "vertical_scan": "自上而下的一条身份扫描光",
+    "rarity_arc": "激活卡面已有星级标识；透明六星召唤体才使用独立星级弧",
+    "identity_node": "统一显示 PLAYER SIGNAL LOCKED 后进入姓名信息"
+  },
+  "tiers": {
+    "3": {"material": "copper", "intensity": 0.45, "extra": "一次铜色柔光", "max_duration_ms": 1500},
+    "4": {"material": "silver", "intensity": 0.65, "extra": "结构线短暂展开", "max_duration_ms": 1750},
+    "5": {"material": "gold", "intensity": 0.85, "extra": "金色双门揭幕与五星连续扫亮", "max_duration_ms": 2100},
+    "6": {"material": "faction_iridescent", "intensity": 1.0, "extra": "逐颗点亮六星、旗舰爆发与专属签名", "max_duration_ms": 4100}
+  },
+  "boundaries": {
+    "three_and_four_use_complete_card": true,
+    "five_uses_complete_card": true,
+    "six_uses_transparent_summon_body": true,
+    "animation_never_duplicates_existing_card_stars": true,
+    "background_uses_clean_radial_field_without_stripes": true,
+    "persistent_circles_and_ellipses_behind_character_are_forbidden": true,
+    "only_six_uses_sequential_star_count": true,
+    "only_six_uses_signature": true,
+    "only_six_uses_anticipation_hold": true
+  }
+}

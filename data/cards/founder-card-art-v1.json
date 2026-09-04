@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "card_art_version": "founder-card-art-v1",
+  "character_data_version": "founder-trio-v1",
+  "asset_mode": "layered",
+  "composition_system_version": "card-composition-system-v1",
+  "template_version": "five-star-premium-v3",
+  "layer_contract": {
+    "source_of_truth": "transparent_character_asset",
+    "composition_order": ["background_base", "faction_pattern", "frame", "rear_fx", "character", "foreground_fx", "rarity_marks", "position_badge", "identity_ui"],
+    "frame_character_rule": "The double frame is composited behind the character. Only foreground particles and dedicated UI plates may overlay the standee.",
+    "baked_text": [],
+    "runtime_ui": ["printed_name", "position", "stars", "faction_label"],
+    "card_name_language": "english_uppercase",
+    "skill_visibility": "locker_room_detail_only",
+    "legacy_note": "The launch-v1 and three-star-expansion-v1 cards are flat legacy composites and cannot be losslessly separated. Apply this layered contract to new art and to legacy cards only when they are deliberately remastered."
+  },
+  "cards": [
+    {
+      "character_id": "founder_sakura_link_4",
+      "composition_recipe_id": "five_star_premium",
+      "character_asset_id": "character.founder.sakura_link_4",
+      "character_variant": "standee",
+      "authoring_reference_path": "assets/cards/founders-v1/layers/founder_sakura_link_4-background-concept-v2.png",
+      "background_asset_path": "assets/cards/founders-v1/layers/founder_sakura_link_4-background-base.png",
+      "faction_pattern_asset_path": "assets/cards/founders-v1/layers/founder_sakura_link_4-faction-pattern.png",
+      "rear_fx_asset_path": "assets/cards/founders-v1/layers/founder_sakura_link_4-rear-fx.png",
+      "frame_asset_path": "assets/cards/founders-v1/layers/founder_sakura_link_4-five-star-frame.png",
+      "foreground_fx_asset_path": "assets/cards/founders-v1/layers/founder_sakura_link_4-foreground-fx.png",
+      "rarity_marks_asset_path": "assets/cards/founders-v1/layers/founder_sakura_link_4-rarity-marks.png",
+      "position_badge_asset_path": "assets/cards/founders-v1/layers/founder_sakura_link_4-position-badge.png",
+      "identity_ui_asset_path": "assets/cards/founders-v1/layers/founder_sakura_link_4-identity-ui.png",
+      "asset_path": "web/runtime-assets/cards/founder-card-art-v1/founder_sakura_link_4.png",
+      "stars": 5,
+      "character_fit": {
+        "height": 1320,
+        "center_x": 505,
+        "bottom": 1460
+      }
+    },
+    {
+      "character_id": "founder_scarlet_toros_6",
+      "composition_recipe_id": "five_star_premium",
+      "character_asset_id": "character.founder.scarlet_toros_6",
+      "character_variant": "standee",
+      "authoring_reference_path": "assets/cards/founders-v1/layers/founder_scarlet_toros_6-background-concept-v2.png",
+      "background_asset_path": "assets/cards/founders-v1/layers/founder_scarlet_toros_6-background-base.png",
+      "faction_pattern_asset_path": "assets/cards/founders-v1/layers/founder_scarlet_toros_6-faction-pattern.png",
+      "rear_fx_asset_path": "assets/cards/founders-v1/layers/founder_scarlet_toros_6-rear-fx.png",
+      "frame_asset_path": "assets/cards/founders-v1/layers/founder_scarlet_toros_6-five-star-frame.png",
+      "foreground_fx_asset_path": "assets/cards/founders-v1/layers/founder_scarlet_toros_6-foreground-fx.png",
+      "rarity_marks_asset_path": "assets/cards/founders-v1/layers/founder_scarlet_toros_6-rarity-marks.png",
+      "position_badge_asset_path": "assets/cards/founders-v1/layers/founder_scarlet_toros_6-position-badge.png",
+      "identity_ui_asset_path": "assets/cards/founders-v1/layers/founder_scarlet_toros_6-identity-ui.png",
+      "asset_path": "web/runtime-assets/cards/founder-card-art-v1/founder_scarlet_toros_6.png",
+      "stars": 5,
+      "character_fit": {
+        "height": 1300,
+        "center_x": 515,
+        "bottom": 1450
+      }
+    },
+    {
+      "character_id": "founder_samba_union_7",
+      "composition_recipe_id": "five_star_premium",
+      "character_asset_id": "character.founder.samba_union_7",
+      "character_variant": "standee",
+      "authoring_reference_path": "assets/cards/founders-v1/layers/founder_samba_union_7-background-concept-v2.png",
+      "background_asset_path": "assets/cards/founders-v1/layers/founder_samba_union_7-background-base.png",
+      "faction_pattern_asset_path": "assets/cards/founders-v1/layers/founder_samba_union_7-faction-pattern.png",
+      "rear_fx_asset_path": "assets/cards/founders-v1/layers/founder_samba_union_7-rear-fx.png",
+      "frame_asset_path": "assets/cards/founders-v1/layers/founder_samba_union_7-five-star-frame.png",
+      "foreground_fx_asset_path": "assets/cards/founders-v1/layers/founder_samba_union_7-foreground-fx.png",
+      "rarity_marks_asset_path": "assets/cards/founders-v1/layers/founder_samba_union_7-rarity-marks.png",
+      "position_badge_asset_path": "assets/cards/founders-v1/layers/founder_samba_union_7-position-badge.png",
+      "identity_ui_asset_path": "assets/cards/founders-v1/layers/founder_samba_union_7-identity-ui.png",
+      "asset_path": "web/runtime-assets/cards/founder-card-art-v1/founder_samba_union_7.png",
+      "stars": 5,
+      "character_fit": {
+        "height": 1320,
+        "center_x": 525,
+        "bottom": 1460
+      }
+    }
+  ]
+}

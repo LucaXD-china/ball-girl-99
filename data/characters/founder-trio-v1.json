@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "character_data_version": "founder-trio-v1",
+  "roster_role": "narrative_template",
+  "description": "Three fictional five-star founders used by the prologue and long-running rival story. They do not consume slots in the 64-card launch pool or the 88-player runtime pool.",
+  "characters": [
+    {
+      "character_id": "founder_sakura_link_4",
+      "name": "纱夜",
+      "profile": {
+        "full_name": "月城纱夜",
+        "romanized_full_name": "Saya Tsukishiro",
+        "age": 24,
+        "height_cm": 178
+      },
+      "faction_id": "sakura_link",
+      "position": "CB",
+      "preferred_foot": "Right",
+      "shirt_number": 4,
+      "stars": 5,
+      "source": {
+        "type": "narrative_template",
+        "source_player_id": null
+      },
+      "identity": {
+        "sister_role": "大姐",
+        "personality": ["温柔", "从容", "可靠", "遇到危机时会先保护同伴"],
+        "core_conflict": "习惯替所有人承担风险，却不擅长承认自己也需要队友。"
+      },
+      "football": {
+        "overall": 86,
+        "attributes": {
+          "pace": 76,
+          "shooting": 45,
+          "passing": 84,
+          "dribbling": 79,
+          "defending": 86,
+          "physical": 80
+        },
+        "base_trait_id": "defender",
+        "signature_skill_id": "build_out",
+        "signature_skill_name": "月樱回廊",
+        "role_summary": "右脚出球中卫；回收后用连续接应和纵向传递把球队带出第一道压迫。",
+        "visible_trigger": "后场夺回球权且附近有接应点时，稳定第一脚并提高本次推进质量。",
+        "visual_cue": "脚下展开月白折线，樱瓣沿三角接应路线依次点亮。"
+      },
+      "story": {
+        "selection_value": "保留纱夜会让早期球队更容易从后场稳定进入中场，但仍需招募门将与终结点。",
+        "rival_growth": [
+          "首次重逢：成为高位防线的后场指挥者，学会把保护转化为主动压迫。",
+          "洲际重逢：承担长传转移与定位球制空，开始允许队友分担风险。",
+          "世界重逢：以队长身份统筹整条防线，在关键时刻主动请求支援而非独自硬扛。"
+        ]
+      },
+      "assets": {
+        "character_asset_id": "character.founder.sakura_link_4",
+        "card_asset_id": "card.founder_sakura_link_4"
+      }
+    },
+    {
+      "character_id": "founder_scarlet_toros_6",
+      "name": "伊蕾娜",
+      "profile": {
+        "full_name": "伊蕾娜·索拉诺",
+        "romanized_full_name": "Elena Solano",
+        "age": 22,
+        "height_cm": 164
+      },
+      "faction_id": "scarlet_toros",
+      "position": "CDM",
+      "preferred_foot": "Right",
+      "shirt_number": 6,
+      "stars": 5,
+      "source": {
+        "type": "narrative_template",
+        "source_player_id": null
+      },
+      "identity": {
+        "sister_role": "小妹兼战术指挥官",
+        "personality": ["干练", "敏锐", "克制", "表达直接但不刻薄"],
+        "core_conflict": "总能快速找到正确答案，却容易忽略队友需要理解过程而不只是执行结论。"
+      },
+      "football": {
+        "overall": 86,
+        "attributes": {
+          "pace": 73,
+          "shooting": 68,
+          "passing": 87,
+          "dribbling": 84,
+          "defending": 82,
+          "physical": 72
+        },
+        "base_trait_id": "playmaker",
+        "signature_skill_id": "tempo_control",
+        "signature_skill_name": "日轮定拍",
+        "role_summary": "后腰节拍器；通过接球前观察、短传换位和突然提速控制比赛节奏。",
+        "visible_trigger": "连续传递后获得向前线路时，降低丢失球权概率并放大下一次创造机会。",
+        "visual_cue": "脚下日轮弧线收束成一枚节拍刻度，指挥手势指向下一处空当。"
+      },
+      "story": {
+        "selection_value": "保留伊蕾娜会提高早期控球与机会组织，但球队仍缺少稳定制空和边路爆点。",
+        "rival_growth": [
+          "首次重逢：成为新球队的中场大脑，用快速转移检验玩家的防守宽度。",
+          "洲际重逢：学会在计划被打断时现场重构节奏，不再只依赖预先计算。",
+          "世界重逢：把个人判断转化为全队共识，以一次主动放权完成角色成长。"
+        ]
+      },
+      "assets": {
+        "character_asset_id": "character.founder.scarlet_toros_6",
+        "card_asset_id": "card.founder_scarlet_toros_6"
+      }
+    },
+    {
+      "character_id": "founder_samba_union_7",
+      "name": "娜雅",
+      "profile": {
+        "full_name": "娜雅·维亚纳",
+        "romanized_full_name": "Naya Viana",
+        "age": 23,
+        "height_cm": 171
+      },
+      "faction_id": "samba_union",
+      "position": "RW",
+      "preferred_foot": "Left",
+      "shirt_number": 7,
+      "stars": 5,
+      "source": {
+        "type": "narrative_template",
+        "source_player_id": null
+      },
+      "identity": {
+        "sister_role": "二姐",
+        "personality": ["外放", "自信", "即兴", "越到关键时刻越主动要球"],
+        "core_conflict": "相信个人突破能够打开所有局面，需要学会何时把聚光灯交给队友。"
+      },
+      "football": {
+        "overall": 86,
+        "attributes": {
+          "pace": 89,
+          "shooting": 82,
+          "passing": 78,
+          "dribbling": 89,
+          "defending": 42,
+          "physical": 70
+        },
+        "base_trait_id": "wide_runner",
+        "signature_skill_id": "wide_breakthrough",
+        "signature_skill_name": "森巴闪切",
+        "role_summary": "左脚右边锋；在右路主动单挑，既能沿边线爆破，也能内切制造终结。",
+        "visible_trigger": "边路一对一且前方有纵深时，提高突破成功率并增加内切射门的威胁。",
+        "visual_cue": "绿金舞步折线从触球点跃出，突破成功后形成一条向禁区折返的光轨。"
+      },
+      "story": {
+        "selection_value": "保留娜雅会提供最直接的边路推进与终结威胁，但球队仍需建立稳定中轴和防守结构。",
+        "rival_growth": [
+          "首次重逢：成为反击核心，以连续单挑逼迫玩家准备边路协防。",
+          "洲际重逢：增加无球斜插和倒三角传球，让个人突破开始服务整条攻击线。",
+          "世界重逢：在最想自己完成终结的时刻选择助攻，完成从明星到领袖的转变。"
+        ]
+      },
+      "assets": {
+        "character_asset_id": "character.founder.samba_union_7",
+        "card_asset_id": "card.founder_samba_union_7"
+      }
+    }
+  ]
+}

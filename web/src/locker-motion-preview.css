@@ -1,0 +1,61 @@
+:root { font-family: Inter,"PingFang SC","Microsoft YaHei",sans-serif; color: #18344a; background: #d7e9f2; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button { font: inherit; }
+
+.saya-motion-preview {
+  min-height: 100vh;
+  padding: clamp(22px,4vh,48px) clamp(20px,4vw,64px);
+  display: grid;
+  grid-template-rows: auto minmax(0,1fr);
+  gap: 22px;
+  background: linear-gradient(145deg,rgba(239,249,253,.92),rgba(204,229,241,.88));
+}
+.saya-motion-header { width: min(1180px,100%); margin: auto; display: flex; align-items: end; justify-content: space-between; gap: 24px; }
+.saya-motion-header small { color: #4a88aa; font-size: 11px; font-weight: 900; letter-spacing: .16em; }
+.saya-motion-header h1 { margin: 5px 0 0; color: #17384f; font-size: clamp(24px,3vw,40px); }
+.saya-motion-header p { max-width: 440px; margin: 0 0 5px; color: #496779; font-size: 14px; line-height: 1.65; }
+.saya-motion-layout { width: min(1180px,100%); min-height: 0; margin: auto; display: grid; grid-template-columns: minmax(0,1fr) 310px; gap: 24px; }
+
+.saya-motion-stage {
+  position: relative;
+  min-height: 0;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,.8);
+  border-radius: 26px 8px 26px 8px;
+  background: #d8c4a8;
+  box-shadow: 0 28px 70px rgba(30,69,91,.28),inset 0 1px rgba(255,255,255,.9);
+  cursor: pointer;
+}
+.saya-motion-stage:focus-visible { outline: 4px solid #fff1a8; outline-offset: 4px; }
+.saya-motion-gif { position: absolute; z-index: 1; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.saya-motion-replay { position: absolute; z-index: 4; left: 50%; bottom: 18px; min-height: 34px; padding: 8px 13px; display: flex; align-items: center; gap: 7px; color: rgba(255,255,255,.92); border: 1px solid rgba(255,255,255,.35); border-radius: 999px; background: rgba(19,51,73,.56); box-shadow: 0 8px 22px rgba(13,35,51,.2); backdrop-filter: blur(10px); font-size: 12px; font-weight: 800; transform: translateX(-50%); }
+.saya-motion-replay svg { width: 15px; height: 15px; }
+.saya-motion-stage.is-playing .saya-motion-replay svg { animation: saya-replay-spin 1.2s linear infinite; }
+
+.saya-motion-notes { min-height: 0; padding: 22px; display: grid; grid-template-rows: auto minmax(0,1fr) auto; gap: 18px; border: 1px solid rgba(255,255,255,.78); border-radius: 8px 24px 8px 24px; background: rgba(255,252,245,.84); box-shadow: 0 22px 54px rgba(35,73,94,.18); backdrop-filter: blur(18px); }
+.saya-motion-notes > div { display: grid; gap: 5px; }
+.saya-motion-notes small { color: #5b8ba6; font-size: 10px; font-weight: 900; letter-spacing: .12em; }
+.saya-motion-notes strong { color: #183b53; font-size: 20px; }
+.saya-motion-checks { margin: 0; padding: 0; display: grid; align-content: center; gap: 10px; list-style: none; }
+.saya-motion-checks li { min-height: 68px; padding: 12px; display: flex; align-items: center; gap: 12px; color: #68808d; border-radius: 12px; background: rgba(232,244,248,.72); }
+.saya-motion-checks li > b { width: 34px; height: 34px; display: grid; place-content: center; flex: 0 0 auto; color: #fff; border-radius: 50%; background: #dd7899; font-size: 10px; }
+.saya-motion-checks li span { display: grid; gap: 3px; }
+.saya-motion-checks li strong { color: #315469; font-size: 14px; }
+.saya-motion-checks li small { color: #78909c; font-size: 10px; letter-spacing: 0; }
+.saya-motion-notes p { margin: 0; color: #6d7e87; font-size: 11px; line-height: 1.65; }
+
+@keyframes saya-replay-spin { to { transform: rotate(360deg); } }
+
+@media (max-width: 820px) {
+  .saya-motion-preview { min-height: auto; }
+  .saya-motion-header { display: grid; }
+  .saya-motion-layout { grid-template-columns: 1fr; }
+  .saya-motion-stage { min-height: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .saya-motion-stage.is-playing .saya-motion-replay svg { animation: none; }
+}

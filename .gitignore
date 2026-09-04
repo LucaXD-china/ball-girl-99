@@ -1,0 +1,18 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.local-data/
+
+# High-resolution generated art is kept in the local asset workspace, not Git.
+/assets/
+
+# Runtime assets are committed build inputs. Ignore only local authoring leftovers.
+/web/runtime-assets/**/source/
+/web/runtime-assets/**/*.tmp
+/web/runtime-assets/**/*.bak
+/web/runtime-assets/characters/match-chibi-v1-preview/
+
+# Local image-generation entrypoints keep their own private provider setup.
+/scripts/generate_five_star_lockers.py
+/scripts/generate_four_star_lockers.py
+/scripts/generate_three_star_lockers.py

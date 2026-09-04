@@ -1,0 +1,311 @@
+/* 两块 HUD 严格嵌入 V3 底图的空白屏幕内缘。仅支持已确认的桌面比赛舞台。 */
+.live-match-layout.stadium-live-layout {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  display: block;
+}
+.schedule-screen.phase-live,
+.schedule-screen.phase-decision-live {
+  padding: 0;
+  gap: 0;
+  grid-template-rows: 0 minmax(0, 1fr);
+  background: #07172b;
+}
+.schedule-screen.phase-live::before,
+.schedule-screen.phase-decision-live::before { display: none; }
+.live-match-layout.stadium-live-layout > .match-pitch-stage,
+.match-preview-stage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: #07172b;
+  box-shadow: 0 22px 55px rgba(13, 31, 52, 0.35);
+}
+
+.stadium-hud-scoreboard.live-scoreboard {
+  position: absolute;
+  z-index: 8;
+  top: 12%;
+  left: 38.2%;
+  width: 30.4%;
+  height: 20.7%;
+  min-height: 0;
+  padding: 10px 14px 11px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 108px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  color: #effbf7;
+  border: 1px solid rgba(211, 179, 69, 0.86);
+  border-radius: 2px;
+  background: rgba(4, 43, 50, 0.97);
+  box-shadow: inset 0 0 0 4px rgba(48, 105, 104, 0.45);
+  backdrop-filter: none;
+}
+.stadium-hud-scoreboard .scoreboard-club {
+  min-width: 0;
+  display: grid;
+  align-items: center;
+  gap: 2px 7px;
+}
+.stadium-hud-scoreboard .scoreboard-club.home { grid-template-columns: minmax(0, 1fr) 34px; text-align: right; }
+.stadium-hud-scoreboard .scoreboard-club.away { grid-template-columns: 34px minmax(0, 1fr); text-align: left; }
+.stadium-hud-scoreboard .scoreboard-club.home > img,
+.stadium-hud-scoreboard .scoreboard-club.home > svg { grid-column: 2; grid-row: 1 / 3; }
+.stadium-hud-scoreboard .scoreboard-club.away > img,
+.stadium-hud-scoreboard .scoreboard-club.away > svg { grid-column: 1; grid-row: 1 / 3; }
+.stadium-hud-scoreboard .scoreboard-club.home > span,
+.stadium-hud-scoreboard .scoreboard-club.home > strong { grid-column: 1; }
+.stadium-hud-scoreboard .scoreboard-club.away > span,
+.stadium-hud-scoreboard .scoreboard-club.away > strong { grid-column: 2; }
+.stadium-hud-scoreboard .scoreboard-club > img,
+.stadium-hud-scoreboard .scoreboard-club > svg {
+  width: 32px;
+  height: 32px;
+  color: #eadfdb;
+  object-fit: contain;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.42));
+}
+.stadium-hud-scoreboard.live-scoreboard > .scoreboard-club > span {
+  color: #9ebbb7;
+  font-size: 7px;
+}
+.stadium-hud-scoreboard.live-scoreboard > .scoreboard-club > strong {
+  overflow: hidden;
+  color: #f3faf7;
+  font-size: 13px;
+  line-height: 1.15;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.38);
+}
+.stadium-hud-scoreboard .live-score {
+  min-width: 0;
+  display: grid;
+  place-items: center;
+  gap: 3px;
+}
+.stadium-hud-scoreboard .live-score > small {
+  color: #f3d36a;
+  font: 900 9px/1 ui-monospace, monospace;
+}
+.stadium-hud-scoreboard .live-score > strong {
+  color: #fff;
+  font: 1000 48px/.9 ui-rounded, system-ui, sans-serif;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.46);
+}
+.stadium-hud-scoreboard .live-score > strong i {
+  margin: 0 8px;
+  color: #8ba7a4;
+  font-style: normal;
+}
+.stadium-hud-scoreboard .live-score > em {
+  color: #a9c4c0;
+  font: 800 6px/1 ui-monospace, monospace;
+  letter-spacing: .11em;
+}
+
+.stadium-penalty-scoreboard {
+  position: absolute;
+  z-index: 12;
+  top: 4%;
+  right: 2.5%;
+  width: 22%;
+  min-width: 250px;
+  padding: 10px 12px 12px;
+  display: grid;
+  gap: 8px;
+  color: #eef9f6;
+  border: 1px solid rgba(211, 179, 69, .9);
+  border-radius: 3px;
+  background: rgba(4, 38, 47, .96);
+  box-shadow: inset 0 0 0 3px rgba(48, 105, 104, .32), 0 8px 24px rgba(0, 0, 0, .32);
+}
+.match-playback-rate {
+  position: absolute;
+  z-index: 12;
+  right: 2.5%;
+  bottom: 5%;
+  width: clamp(84px, 12vmin, 148px);
+  min-height: clamp(40px, 5.75vmin, 68px);
+  padding: clamp(8px, 1vmin, 13px) clamp(10px, 1.25vmin, 16px);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(4px, .55vmin, 8px);
+  color: #f5fffc;
+  border: 2px solid rgba(113, 178, 173, .95);
+  border-radius: 3px;
+  background: rgba(4, 38, 47, .96);
+  box-shadow: inset 0 0 0 2px rgba(48, 105, 104, .34), 0 8px 20px rgba(0, 0, 0, .38);
+  font: 900 clamp(12px, 1.45vmin, 18px)/1 ui-monospace, monospace;
+  cursor: pointer;
+}
+.match-playback-rate svg { width: clamp(16px, 1.8vmin, 24px); height: clamp(16px, 1.8vmin, 24px); }
+.match-playback-rate[aria-pressed="true"] {
+  color: #fff5c5;
+  border-color: rgba(211, 179, 69, .96);
+  background: rgba(89, 68, 23, .96);
+  box-shadow: inset 0 0 0 2px rgba(230, 196, 82, .22), 0 0 18px rgba(211, 179, 69, .34), 0 8px 20px rgba(0, 0, 0, .38);
+}
+.match-playback-rate:focus-visible { outline: 2px solid #fff5c5; outline-offset: 3px; }
+.stadium-penalty-scoreboard > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #f3d36a;
+  font: 900 8px/1 ui-monospace, monospace;
+  letter-spacing: .08em;
+}
+.stadium-penalty-scoreboard > header strong {
+  color: #fff;
+  font: 1000 24px/1 ui-rounded, system-ui, sans-serif;
+  letter-spacing: 0;
+}
+.stadium-penalty-scoreboard > header strong i {
+  margin: 0 5px;
+  color: #8ba7a4;
+  font-style: normal;
+}
+.penalty-score-row {
+  min-width: 0;
+  min-height: 24px;
+  padding-top: 7px;
+  display: grid;
+  grid-template-columns: minmax(0, 80px) 20px minmax(0, 1fr);
+  align-items: start;
+  gap: 7px;
+  border-top: 1px solid rgba(88, 139, 136, .34);
+}
+.penalty-score-row > span {
+  overflow: hidden;
+  padding-top: 4px;
+  color: #dcece8;
+  font-size: 10px;
+  font-weight: 900;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.penalty-score-row > strong {
+  padding-top: 2px;
+  color: #fff;
+  font: 1000 16px/1 ui-rounded, system-ui, sans-serif;
+  text-align: center;
+}
+.penalty-attempts {
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.penalty-attempts > i {
+  width: 18px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  border-radius: 50%;
+  font: 1000 12px/1 system-ui, sans-serif;
+  font-style: normal;
+}
+.penalty-attempts > i.is-goal { background: #31966d; box-shadow: 0 0 0 1px rgba(111, 225, 175, .45); }
+.penalty-attempts > i.is-failed { background: #b74e4b; box-shadow: 0 0 0 1px rgba(245, 132, 127, .4); }
+
+.stadium-hud-feed.match-feed-panel {
+  position: absolute;
+  z-index: 8;
+  top: 23.75%;
+  left: 5.4%;
+  width: 16.9%;
+  height: 21.6%;
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: 27px minmax(0, 1fr) 15px;
+  overflow: hidden;
+  color: #dceee9;
+  border: 1px solid rgba(31, 110, 111, 0.92);
+  border-radius: 2px;
+  background: rgba(5, 48, 56, 0.97);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+.stadium-hud-feed.match-feed-panel > header {
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(66, 128, 128, 0.52);
+}
+.stadium-hud-feed.match-feed-panel > header > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #eef8f5;
+  font-size: 9px;
+  font-weight: 900;
+}
+.stadium-hud-feed.match-feed-panel > header small {
+  color: #8bb4b0;
+  font: 700 6px/1 ui-monospace, monospace;
+}
+.stadium-hud-feed .live-dot {
+  width: 6px;
+  height: 6px;
+  box-shadow: 0 0 0 2px rgba(223, 75, 63, 0.12);
+}
+.stadium-hud-feed .match-event-feed {
+  min-height: 0;
+  padding: 2px 6px;
+  overflow: hidden;
+}
+.stadium-hud-feed .match-event-feed article {
+  min-height: 0;
+  height: 27px;
+  padding: 3px 2px;
+  display: grid;
+  grid-template-columns: 25px 29px minmax(0, 1fr);
+  align-items: center;
+  gap: 3px;
+  border-bottom: 1px solid rgba(78, 137, 135, 0.24);
+}
+.stadium-hud-feed .match-event-feed article.is-current {
+  border: 1px solid rgba(210, 178, 66, 0.68);
+  border-radius: 3px;
+  background: rgba(144, 108, 25, 0.28);
+}
+.stadium-hud-feed .match-event-feed time {
+  padding: 0;
+  color: #9ebfba;
+  font: 900 6.5px/1 ui-monospace, monospace;
+  text-align: right;
+}
+.stadium-hud-feed .event-mark {
+  padding: 3px 2px;
+  font-size: 5.5px;
+}
+.stadium-hud-feed .match-event-feed p {
+  min-width: 0;
+  overflow: hidden;
+  margin: 0;
+  color: #d9ebe6;
+  font-size: 6.5px;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.stadium-hud-feed .match-event-feed p small { display: none; }
+.stadium-hud-feed > footer {
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  color: #709793;
+  font: 6px/1 ui-monospace, monospace;
+}

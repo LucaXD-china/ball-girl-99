@@ -1,0 +1,31 @@
+{
+  "version": "five-star-reveal-animation-v1",
+  "extends": "recruit-reveal-language-v1",
+  "description": "五星金色精品卡的命中展示。强于四星普通翻面，弱于六星角色召唤。",
+  "presentation_shape": "complete_card",
+  "demo_character_id": "sakura_reina_tachibana",
+  "timeline_ms": [
+    {"at": 0, "event": "gold_signal", "duration": 300},
+    {"at": 260, "event": "double_gate_open", "duration": 460},
+    {"at": 430, "event": "card_rise", "duration": 500},
+    {"at": 880, "event": "existing_five_star_activation_sweep", "duration": 420},
+    {"at": 1120, "event": "gold_sheen", "duration": 500},
+    {"at": 1500, "event": "premium_label", "duration": 260},
+    {"at": 1760, "event": "reveal_idle", "duration": 0}
+  ],
+  "rules": {
+    "stronger_than_four_star": true,
+    "weaker_than_six_star": true,
+    "uses_gold_spotlight_edge_bloom_and_twelve_shards": true,
+    "existing_stars_activate_as_one_sweep": true,
+    "draws_additional_star_row": false,
+    "stars_light_sequentially": false,
+    "uses_complete_card_shape": true,
+    "uses_transparent_summon_body": false,
+    "uses_anticipation_hold": false,
+    "uses_flagship_burst": false,
+    "uses_signature": false,
+    "uses_flagship_title": false,
+    "reduced_motion_behavior": "取消双门位移和卡面弹跳，保留金色渐显、卡面已有五星同步激活与一次低强度扫光"
+  }
+}

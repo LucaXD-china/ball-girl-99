@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "composition_system_version": "card-composition-system-v1",
+  "canvas": {
+    "width": 1024,
+    "height": 1536,
+    "aspect_ratio": "2:3"
+  },
+  "source_contract": {
+    "character_source": "Every card depends on an independently registered RGBA character asset. A flat card PNG is never a character source.",
+    "layer_files": "background_base, faction_pattern, character and frame remain independently addressable authoring/runtime elements.",
+    "frame_character_order": "The base frame is rendered behind the character. Only dedicated foreground effects and UI plates may overlay the standee; five-star cards do not use break-frame motion.",
+    "dynamic_identity": "Name, position, rarity marks, faction label and any six-star flagship title are rendered by UI/vector layers.",
+    "derived_preview": "The source card PNG is a reproducible preview derived from the layer graph, not a new source of truth."
+  },
+  "layer_slots": [
+    {"slot": "background_base", "z_index": 0, "source": "image_asset"},
+    {"slot": "faction_pattern", "z_index": 10, "source": "transparent_image_or_vector"},
+    {"slot": "frame", "z_index": 15, "source": "transparent_image_or_vector"},
+    {"slot": "rear_fx", "z_index": 20, "source": "transparent_image_or_vector"},
+    {"slot": "character", "z_index": 30, "source": "transparent_character_asset"},
+    {"slot": "foreground_fx", "z_index": 50, "source": "transparent_image_or_vector"},
+    {"slot": "rarity_marks", "z_index": 60, "source": "runtime_vector"},
+    {"slot": "position_badge", "z_index": 70, "source": "runtime_ui"},
+    {"slot": "identity_ui", "z_index": 90, "source": "runtime_ui"},
+    {"slot": "theme_label", "z_index": 100, "source": "runtime_ui"},
+    {"slot": "signature_mark", "z_index": 110, "source": "transparent_image_or_vector"}
+  ],
+  "recipes": [
+    {
+      "recipe_id": "three_star_base",
+      "stars": 3,
+      "frame_style": "bronze_single_thin",
+      "background_style": "matte_day_pitch",
+      "required_slots": ["background_base", "faction_pattern", "character", "frame", "rarity_marks", "position_badge", "identity_ui"],
+      "optional_slots": [],
+      "forbidden_slots": ["rear_fx", "foreground_fx", "theme_label", "signature_mark"],
+      "element_budget": "One flat faction watermark; no particles, trails, signature or theme title."
+    },
+    {
+      "recipe_id": "four_star_tactic",
+      "stars": 4,
+      "frame_style": "silver_black_structural",
+      "background_style": "night_pitch_geometric",
+      "required_slots": ["background_base", "faction_pattern", "character", "frame", "foreground_fx", "rarity_marks", "position_badge", "identity_ui"],
+      "optional_slots": [],
+      "forbidden_slots": ["rear_fx", "theme_label", "signature_mark"],
+      "element_budget": "One repeated geometric texture, one material-edition badge and at most one restrained linear-particle layer; no skill name or skill icon."
+    },
+    {
+      "recipe_id": "five_star_premium",
+      "stars": 5,
+      "frame_style": "gold_double",
+      "background_style": "premium_night_pitch",
+      "required_slots": ["background_base", "faction_pattern", "rear_fx", "character", "frame", "foreground_fx", "rarity_marks", "position_badge", "identity_ui"],
+      "optional_slots": [],
+      "forbidden_slots": ["theme_label", "signature_mark"],
+      "element_budget": "One rear action trail and one restrained foreground particle layer; no theme title, edition badge, skill information or signature."
+    },
+    {
+      "recipe_id": "six_star_flagship",
+      "stars": 6,
+      "frame_style": "iridescent_inner_metallic_outer",
+      "background_style": "exclusive_flagship_scene",
+      "required_slots": ["background_base", "faction_pattern", "rear_fx", "character", "frame", "foreground_fx", "rarity_marks", "position_badge", "theme_label", "signature_mark", "identity_ui"],
+      "optional_slots": [],
+      "forbidden_slots": [],
+      "element_budget": "Iridescent fragments, outline light and one break-frame motion layer are allowed; only this tier may use the fictional signature mark."
+    }
+  ]
+}

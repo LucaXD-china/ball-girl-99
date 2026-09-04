@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="crest-fog_court" viewBox="0 0 64 72">
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="currentColor" opacity=".18"/>
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="m18 27 5-10 9 8 9-8 5 10-3 9H21Zm5 9h20v7H23Z" fill="currentColor"/>
+      <circle cx="32" cy="50" r="5" fill="none" stroke="currentColor" stroke-width="3"/>
+    </symbol>
+    <symbol id="crest-gaul_iris" viewBox="0 0 64 72">
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="currentColor" opacity=".18"/>
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M32 15c-8 7-9 14-4 20-6-4-12-2-14 4 6 0 10 2 12 7h12c2-5 6-7 12-7-2-6-8-8-14-4 5-6 4-13-4-20Zm0 19v23" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="crest-iron_engine" viewBox="0 0 64 72">
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="currentColor" opacity=".18"/>
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="m32 14 4 5 7-1 1 7 6 4-4 6 2 7-7 2-4 6-5-4-5 4-4-6-7-2 2-7-4-6 6-4 1-7 7 1Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="32" cy="34" r="9" fill="currentColor"/>
+    </symbol>
+    <symbol id="crest-scarlet_toros" viewBox="0 0 64 72">
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="currentColor" opacity=".18"/>
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M17 20c3 8 8 10 15 7 7 3 12 1 15-7 4 11 0 17-7 20v10l-8 7-8-7V40c-7-3-11-9-7-20Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/>
+      <circle cx="26" cy="36" r="2" fill="currentColor"/><circle cx="38" cy="36" r="2" fill="currentColor"/>
+    </symbol>
+    <symbol id="crest-samba_union" viewBox="0 0 64 72">
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="currentColor" opacity=".18"/>
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M15 35c8-15 26-19 35-7-10-3-20 2-25 13 10-4 19-2 24 7-15 3-28-2-34-13Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="32" cy="36" r="8" fill="currentColor"/>
+    </symbol>
+    <symbol id="crest-pampas_silver" viewBox="0 0 64 72">
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="currentColor" opacity=".18"/>
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="none" stroke="currentColor" stroke-width="3"/>
+      <circle cx="32" cy="29" r="8" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M14 45c8-7 14-8 18-4 4-4 10-3 18 4M18 52c6-5 11-6 14-3 3-3 8-2 14 3" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      <path d="M32 14v6m-13-1 5 5m21-5-5 5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="crest-sakura_link" viewBox="0 0 64 72">
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="currentColor" opacity=".18"/>
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M32 33c-12-1-15-9-10-15 5 0 9 3 10 9 1-6 5-9 10-9 5 6 2 14-10 15Zm0 0c-1 12-9 15-15 10 0-5 3-9 9-10-6-1-9-5-9-10m15 10c1 12 9 15 15 10 0-5-3-9-9-10 6-1 9-5 9-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="32" cy="33" r="4" fill="currentColor"/>
+    </symbol>
+    <symbol id="crest-azure_fortress" viewBox="0 0 64 72">
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="currentColor" opacity=".18"/>
+      <path d="M8 8h48v34c0 13-10 21-24 26C18 63 8 55 8 42Z" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M17 51V27h7v-9h6v9h4v-9h6v9h7v24M14 51h36M25 51V39h14v12" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/>
+    </symbol>
+  </defs>
+</svg>
